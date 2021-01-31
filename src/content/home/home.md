@@ -1,5 +1,5 @@
 ---
-name: Jen Dudek
+name: Home Page
 intro: >-
   ## Hi, I'm Jen!
 
