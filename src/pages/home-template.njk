@@ -1,0 +1,20 @@
+---
+renderData:
+  section: "home"
+  title: "Jen Dudek, Graphic Designer"
+pagination:
+    data: collections.home
+    alias: home
+    size: 1
+permalink: "/"
+---
+
+{% extends "layouts/main.njk" %}
+
+{% block content %}
+    {% if home.data.content -%}
+        <div class="jf-markdown">
+            {{ home.data.intro | markdown | safe }}
+        </div>
+    {%- endif %}
+{% endblock %}

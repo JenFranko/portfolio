@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--body-bg);
+    color: var(--body-color);
+    font-family: var(--primary-font);
+    font-weight: var(--default-weight);
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font-stack);
+    font-weight: var(--heading-font-weight);
+    letter-spacing: 0.125rem;
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+}
+
+h4 {
+    font-size: var(--h4-font-size);
+}
+
+h5 {
+    font-size: var(--h5-font-size);
+}
+
+h6 {
+    font-size: var(--h6-font-size);
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+a {
+    color: var(--body-link);
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+        color: var(--body-link-hover);
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+.jf-video-container {
+    display: block;
+    margin: 2rem 0;
+    max-width: 48rem;
+    width: 100%;
+}
+
+.jf-video {
+    display: block;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+/* Added this min-height for now so that the footer sits at bottom
+   of screen on Support Page rather than in the middle of the screen.
+   This block of code can probably be removed once Support Page content
+   gets filled out a bit more.
+
+   Header component height + footer component height = 271px. */
+
+.jf-main {
+    min-height: calc(100vh - 16.938rem);
+}
+
+.jf-container {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    max-width: 90rem;
+    padding: 2rem 1.5rem 5rem;
+    width: 100%;
+}
+
+@media screen and (min-width: 48rem) {
+    .jf-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 60rem) {
+    .jf-container {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 64rem) {
+    .jf-container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (min-width: 75rem) {
+    .jf-container {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    display: block;
+    margin: 0 0 0.75rem;
+    padding: 0;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+.jf-accessible-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
