@@ -1,7 +1,7 @@
 const babel = require('rollup-plugin-babel');
 const multi = require('@rollup/plugin-multi-entry');
 const { terser } = require('rollup-plugin-terser');
-const resolve = require('@rollup/plugin-node-resolve');
+import { nodeResolve } from '@rollup/plugin-node-resolve';
 const commonJS = require('@rollup/plugin-commonjs');
 const fileSize = require('rollup-plugin-filesize');
 
@@ -18,7 +18,7 @@ module.exports = [
             name: 'jenfranko'
         },
         plugins: [
-            resolve(),
+            nodeResolve(),
             commonJS(),
             multi(),
             babel({
@@ -34,7 +34,7 @@ module.exports = [
             name: 'jenfranko'
         },
         plugins: [
-            resolve(),
+            nodeResolve(),
             commonJS(),
             babel({
                 exclude: 'node_modules/**'

@@ -40,7 +40,7 @@
     "terser": "5.5.1"
   },
   "scripts": {
-    "build": "npm run clean && npm run build:eleventy && npm run build:sass && rimraf dist/content",
+    "build": "npm run clean && npm run build:eleventy && npm run build:rollup && npm run build:sass && rimraf dist/content",
     "build:eleventy": "npx @11ty/eleventy",
     "build:rollup": "rollup -c rollup.config.js && rimraf dist/assets/js/jenfranko-temp.js",
     "build:sass": "node-sass src/partials/styles/global.scss dist/assets/styles/jenfranko-uncompressed.css && ./node_modules/.bin/postcss dist/assets/styles/jenfranko-uncompressed.css > dist/assets/styles/jenfranko.css && rimraf dist/assets/styles/jenfranko-uncompressed.css",

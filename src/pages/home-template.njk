@@ -12,7 +12,7 @@ permalink: "/"
 {% extends "layouts/main.njk" %}
 
 {% block content %}
-    {% if home.data.content -%}
+    {% if home.data.intro -%}
         <div class="jf-markdown">
             {{ home.data.intro | markdown | safe }}
         </div>
