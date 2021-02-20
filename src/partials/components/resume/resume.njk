@@ -1,0 +1,30 @@
+{% macro resumeContent(content) %}
+{% if content -%}
+    <div class="jf-section jf-markdown">
+        {% if content.title -%}
+            <h2>{{content.title}}</h2>
+        {%- endif %}
+
+        {% if content.jobs.length -%}
+            <ul class="jf-jobs-list">
+                {% for job in content.jobs -%}
+                    {% set dates = '' %}
+                    {% if job.date %}
+                        {% set dates = ' (' + job.date + ')' %}
+                    {% endif %}
+                    <li class="jf-job">
+                        {% if job.icon -%}
+                            <i class="fa {{ job.icon }}"></i>
+                        {%- endif %}
+                        <h3 class="jf-job-company">{{ job.company }}{{ dates }}</h3>
+                        <h4 class="jf-job-title">{{ job.title }}</h4>
+                        {% if job.description -%}
+                        {{ job.description | markdown | safe }}
+                        {%- endif %}
+                    </li>
+                {%- endfor %}
+            </ul>
+        {%- endif %}
+    </div>
+{%- endif %}
+{% endmacro %}
