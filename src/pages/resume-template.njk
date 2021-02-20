@@ -1,0 +1,16 @@
+---
+renderData:
+  title: "The Resume of Jen Dudek, Graphic Designer"
+pagination:
+    data: collections.resume
+    alias: resume
+    size: 1
+permalink: "/resume/"
+---
+
+{% extends "layouts/main.njk" %}
+{% from "components/resume/resume.njk" import resumeContent as resumeContent %}
+
+{% block content %}
+    {{ resumeContent(resume.data) }}
+{% endblock %}

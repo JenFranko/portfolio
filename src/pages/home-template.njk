@@ -9,11 +9,42 @@ permalink: "/"
 ---
 
 {% extends "layouts/main.njk" %}
+{% from "components/resume/resume.njk" import resumeContent as resumeContent %}
 
 {% block content %}
-    {% if home.data.intro -%}
-        <div class="jf-markdown">
-            {{ home.data.intro | markdown | safe }}
+    {% if home.data.greeting -%}
+        <div class="jf-section jf-markdown">
+            {{ home.data.greeting | markdown | safe }}
         </div>
     {%- endif %}
+
+    {% for section in home.data.about -%}
+        <div class="jf-section jf-markdown">
+            {% if section.title -%}
+                <h2>{{section.title}}</h2>
+            {%- endif %}
+
+            {% if section.image -%}
+                {% set imgAlt = "Jen's portrait" %}
+                {% if section.imageAlt %}
+                    {% set imgAlt = section.imgAlt %}
+                {% endif %}
+                <img src="{{section.image}}" alt="{{imgAlt}}" />
+            {%- endif %}
+
+            {% if section.text -%}
+                {{ section.text | markdown | safe }}
+            {%- endif %}
+
+            {% if home.data.attributes.length -%}
+                I am a...
+                {% for attribute in home.data.attributes -%}
+                    <span class="jf-attribute" data-percentage="{{attribute.percent}}">{{attribute.name}}</span>
+                {%- endfor %}
+            {%- endif %}
+        </div>
+    {%- endfor %}
+
+    {% set resume = collections.resume[0].data %}
+    {{ resumeContent(resume) }}
 {% endblock %}
