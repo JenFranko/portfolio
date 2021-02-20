@@ -14,7 +14,7 @@
                     {% endif %}
                     <li class="jf-job">
                         {% if job.icon -%}
-                            <i class="fa {{ job.icon }}"></i>
+                            <i class="fas {{ job.icon }}" aria-hidden="true"></i>
                         {%- endif %}
                         <h3 class="jf-job-company">{{ job.company }}{{ dates }}</h3>
                         <h4 class="jf-job-title">{{ job.title }}</h4>

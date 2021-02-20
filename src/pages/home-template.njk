@@ -15,6 +15,12 @@ permalink: "/"
     {% if home.data.greeting -%}
         <div class="jf-section jf-markdown">
             {{ home.data.greeting | markdown | safe }}
+
+            <div class="jf-section-bg">
+            {% for bg in home.data.greeting_bg -%}
+                <img src="{{bg.image}}" alt="" class="jg-section-bg-img" />
+            {%- endfor %}
+            </div>
         </div>
     {%- endif %}
 
