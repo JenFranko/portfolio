@@ -1,5 +1,7 @@
 ---
 name: Home Page
+greeting: >-
+  # Jen
 intro: >-
   ## Hi, I'm Jen!
 
@@ -35,4 +37,3 @@ intro: >-
   value the creative journey and process.
 tags: home
 ---
-
