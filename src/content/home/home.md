@@ -1,7 +1,7 @@
 ---
-name: Home Page
 greeting: >-
-  # Jen
+  # Hello, my name is <span class="jf-name">Jennifer Dudek</span> I'm a graphic
+  designer
 intro: >-
   ## Hi, I'm Jen!
 
@@ -37,3 +37,4 @@ intro: >-
   value the creative journey and process.
 tags: home
 ---
+
