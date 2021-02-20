@@ -1,7 +1,14 @@
 ---
+name: Home Page
 greeting: >-
   # Hello, my name is <span class="jf-name">Jennifer Dudek</span> I'm a graphic
   designer
+greeting_bg:
+  - image: /assets/uploads/kelpius.jpg
+  - image: /assets/uploads/nox.jpg
+  - image: /assets/uploads/parking.jpg
+  - image: /assets/uploads/racing.jpg
+  - image: /assets/uploads/rust.jpg
 intro: >-
   ## Hi, I'm Jen!
 
