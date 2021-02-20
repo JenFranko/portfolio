@@ -6,12 +6,11 @@ location: 'Philadelphia, PA'
 social:
   - image: /assets/uploads/overlay.png
     name: Instagram
-    url: 'http://www.instagram.com/jeneffindudek'
+    url: fa-instagram
   - image: /assets/uploads/overlay.png
     name: Linkedin
-    url: 'http://www.linkedin.com/in/jennifer-franko-dudek'
+    url: fa-linkedin
 download: Download a pdf
 contact: Get in touch
 tags: info
 ---
-
