@@ -1,0 +1,23 @@
+---
+renderData:
+  title: "{{ work.data.title }} by Jen Dudek, Graphic Designer"
+  description: "{{ work.data.description }}"
+  image: "{{ work.data.images[0].image }}"
+pagination:
+    data: collections.work
+    alias: work
+    size: 1
+permalink: "/work/{{ work.data.title | slug }}/"
+---
+
+{% extends "layouts/main.njk" %}
+
+{% block content %}
+    <div class="jf-markdown">
+        <h1>{{ work.data.title | markdown | safe }}</h1>
+
+        {% if work.data.description -%}
+            {{ work.data.description | markdown | safe }}
+        {%- endif %}
+    </div>
+{% endblock %}
