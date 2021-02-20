@@ -1,3 +1,9 @@
+@import './_theme';
+@import './fontawesome/fontawesome';
+@import './fontawesome/regular';
+@import './fontawesome/solid';
+@import './fontawesome/brands';
+
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -5,7 +11,7 @@
 
 body {
     background-color: var(--body-bg);
-    color: var(--body-color);
+    color: var(--body-text);
     font-family: var(--primary-font);
     font-weight: var(--default-weight);
     line-height: 1.2;
@@ -94,43 +100,6 @@ img {
     min-height: calc(100vh - 16.938rem);
 }
 
-.jf-container {
-    box-sizing: border-box;
-    display: block;
-    margin: 0 auto;
-    max-width: 90rem;
-    padding: 2rem 1.5rem 5rem;
-    width: 100%;
-}
-
-@media screen and (min-width: 48rem) {
-    .jf-container {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-}
-
-@media screen and (min-width: 60rem) {
-    .jf-container {
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
-    }
-}
-
-@media screen and (min-width: 64rem) {
-    .jf-container {
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-}
-
-@media screen and (min-width: 75rem) {
-    .jf-container {
-        padding-left: 4rem;
-        padding-right: 4rem;
-    }
-}
-
 fieldset {
     border: none;
     margin: 0;
@@ -156,4 +125,45 @@ input {
     overflow: hidden;
     padding: 0;
     position: absolute;
+}
+
+.jf-section {
+    background-color: var(--body-bg);
+    color: var(--body-text);
+    display: block;
+    min-height: 100vh;
+    padding: 1.5rem 1rem;
+    position: relative;
+    width: 100%;
+
+    &:nth-child(odd) {
+        background-color: var(--alt-body-bg);
+        color: var(--alt-body-text);
+    }
+}
+
+@media screen and (min-width: 48rem) {
+    .jf-section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 60rem) {
+    .jf-section {
+        padding: 2rem 2.5rem;
+    }
+}
+
+@media screen and (min-width: 64rem) {
+    .jf-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (min-width: 75rem) {
+    .jf-section {
+        padding: 3rem 4rem;
+    }
 }

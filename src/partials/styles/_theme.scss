@@ -1,0 +1,17 @@
+$fa-font-path: '/assets/fonts/';
+
+$white: #FFF;
+$off-white: #FAFAFA;
+$almost-black: #0F0F0F;
+$black: #000;
+
+:root {
+
+    --body-bg: #{$off-white};
+
+    --body-text: #{$almost-black};
+
+    --alt-body-bg: #{$almost-black};
+
+    --alt-body-text: #{$off-white};
+}
