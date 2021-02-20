@@ -1,6 +1,8 @@
 # Jen Dudek
 
-## Hi, I'm Jen!
+## About Me
+
+Hi, I'm Jen!
 
 I’m a highly collaborative graphic designer, art director, multitasker extraordinaire, and a pretty badass weekend warrior mountain biker.
 
