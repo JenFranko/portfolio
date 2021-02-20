@@ -83,7 +83,7 @@ jobs:
       * United States Postal Service, Washington, DC
 
       * The Creative Group - Washington, DC and Philadelphia, PA
-    icon: fa-lightbulb-o
+    icon: fa-lightbulb
     title: Graphic and Multimedia Designer/Art Director
   - company: Event Strategy Group
     date: 2013-2016
@@ -163,4 +163,3 @@ jobs:
     icon: fa-briefcase
     title: Proficient on both Mac and PC platforms
 ---
-
