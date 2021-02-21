@@ -13,10 +13,14 @@ description: >-
   Lead designer charged with conceptualizing and creating conference collateral.
 link: /assets/uploads/GB2008-300x300.jpg
 images:
-  - description: Greenbuild Conference Program and Expo Guide
+  - description: Greenbuild Conference Program Spread
     image: /assets/uploads/GB2008-1440-1.jpg
   - description: Expo Guide Vendor Spread
     image: /assets/uploads/GB2008-768-2.jpg
+  - description: Greenbuild Conference Program and Expo Guide
+    image: /assets/uploads/GB2008-768-3.jpg
+  - description: Greenbuild Registration Direct Mailer
+    image: /assets/uploads/GB2008-1440-4.jpg
 tags: work
 ---
 
