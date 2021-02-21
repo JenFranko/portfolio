@@ -20,11 +20,16 @@ description: >-
   marketplace.
 link: /assets/uploads/WCS-300x300-1-1024x1024.jpg
 images:
-  - image: /assets/uploads/WCS-1000x650-1-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-2-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-3-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-4-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-5-scaled.jpg
+  - description: Creative Package
+    image: /assets/uploads/WCS-1000x650-1-scaled.jpg
+  - description: Logo and Sponsorship Lockup
+    image: /assets/uploads/WCS-1000x650-2-scaled.jpg
+  - description: 'Color Palette, Design Elements and Fonts'
+    image: /assets/uploads/WCS-1000x650-3-scaled.jpg
+  - description: Illustrations assets from book
+    image: /assets/uploads/WCS-1000x650-4-scaled.jpg
+  - description: Illustrations assets from book
+    image: /assets/uploads/WCS-1000x650-5-scaled.jpg
   - image: /assets/uploads/WCS-1000x650-6-scaled.jpg
   - image: /assets/uploads/WCS-1000x650-7-scaled.jpg
   - image: /assets/uploads/WCS-1000x650-8-scaled.jpg
