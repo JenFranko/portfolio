@@ -1,7 +1,7 @@
 ---
-title: Skills Drills and Bellyaches
-date: 2015-02-11T04:25:20.611Z
-link: /assets/uploads/CXBook-300x300.jpg
+title: Greenbuild Conference Collateral
+date: 2014-02-11T04:25:00.000Z
+link: /assets/uploads/GB2008-300x300.jpg
 tags: work
 ---
 
