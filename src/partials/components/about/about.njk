@@ -1,0 +1,30 @@
+{% macro about(content, attributes) %}
+<div class="jf-section jf-markdown jf-about">
+    <div class="jf-about-header">
+        {% if content.title -%}
+            <h2 class="jf-title-caps">{{content.title}}</h2>
+        {%- endif %}
+
+        {% if content.image -%}
+            {% set imgAlt = "Jen's portrait" %}
+            {% if content.imageAlt %}
+                {% set imgAlt = content.imgAlt %}
+            {% endif %}
+            <img src="{{ content.image }}" alt="{{ imgAlt }}" class="jf-portrait" />
+        {%- endif %}
+    </div>
+
+    <div class="jf-about-content">
+        {% if content.text -%}
+            {{ content.text | markdown | safe }}
+        {%- endif %}
+
+        {% if attributes.length -%}
+            <span class="jf-accessible-text">I am a...</span>
+            {% for attribute in attributes -%}
+                <span class="jf-attribute" data-percentage="{{attribute.percent}}">{{attribute.name}}</span>
+            {%- endfor %}
+        {%- endif %}
+    </div>
+</div>
+{% endmacro %}
