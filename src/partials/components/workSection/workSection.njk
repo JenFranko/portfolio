@@ -1,0 +1,28 @@
+{% macro workSection(samples, title) %}
+{% if samples -%}
+    <div class="jf-section jf-work jf-flex" id="work">
+        <div class="jf-work-header jf-flex-header">
+            {% if title -%}
+                <h2 class="jf-title-caps">{{ title }}</h2>
+            {%- endif %}
+        </div>
+
+        <div class="jf-work-content jf-flex-content">
+            <ul class="jf-work-list">
+                {% for sample in samples -%}
+                    {% set imgAlt = sample.data.title %}
+                    {% if sample.data.description %}
+                        {% set imgAlt = sample.data.description %}
+                    {% endif %}
+                    <li class="jf-work-sample">
+                        <h3 class="jf-work-text">
+                            <a href="/work/{{ sample.data.title | slug }}" class="jf-work-link">{{ sample.data.title }}</a>
+                        </h3>
+                        <img src="{{ sample.data.link }}" alt="{{ imgAlt }}" class="jf-work-img" />
+                    </li>
+                {%- endfor %}
+            </ul>
+        </div>
+    </div>
+{%- endif %}
+{% endmacro %}
