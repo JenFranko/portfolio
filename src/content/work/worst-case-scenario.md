@@ -38,11 +38,16 @@ images:
     image: /assets/uploads/WCS-1000x650-8-scaled.jpg
   - description: Digital Billboards
     image: /assets/uploads/WCS-1000x650-9-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-10-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-11-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-12-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-13-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-14-scaled.jpg
+  - description: Banner Advertisements
+    image: /assets/uploads/WCS-1000x650-10-scaled.jpg
+  - description: Digital Display Advertisements
+    image: /assets/uploads/WCS-1000x650-11-scaled.jpg
+  - description: Print Advertisements
+    image: /assets/uploads/WCS-1000x650-12-scaled.jpg
+  - description: Promotional Materials
+    image: /assets/uploads/WCS-1000x650-13-scaled.jpg
+  - description: Pop-up Banner and Step & Repeat for promotional events
+    image: /assets/uploads/WCS-1000x650-14-scaled.jpg
 tags: work
 ---
 
