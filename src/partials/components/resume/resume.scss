@@ -5,6 +5,44 @@
 }
 
 .jf-job {
-    margin: 0;
-    padding: 0;
+    margin: 0 0 1rem;
+    padding: 0 0 0 3rem;
+    position: relative;
+}
+
+.jf-resume-icon {
+    background-color: var(--highlight);
+    border-radius: 2rem;
+    color: var(--highlight-text);
+    height: 2rem;
+    left: 0;
+    line-height: 2rem;
+    position: absolute;
+    text-align: center;
+    top: -0.125rem;
+    width: 2rem;
+}
+
+.jf-job-company {
+    color: var(--highlight);
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 0 0 0.5;
+}
+
+.jf-job-title {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin: 0 0 0.5;
+}
+
+@media screen and (min-width: 40.5rem) {
+    .jf-job {
+        padding-left: 2rem;
+    }
+
+    .jf-resume-icon {
+        left: -3rem;
+        top: 0;
+    }
 }

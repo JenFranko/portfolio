@@ -66,6 +66,23 @@ p {
     margin: 0 0 1rem;
 }
 
+ol {
+    margin: 0 0 0 1.5rem;
+    padding: 0;
+}
+
+ul {
+    list-style: disc;
+    margin: 0 0 0 1.5rem;
+    padding: 0;
+}
+
+li {
+    line-height: 1.5;
+    margin: 0 0 0.5rem;
+    padding: 0;
+}
+
 a {
     color: var(--highlight);
     text-decoration: underline;
@@ -220,6 +237,11 @@ img {
     transform: translate(-50%, -50%);
 }
 
+.jf-flex {
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
 .jf-flex-header {
     margin: 0 0 1rem;
     text-align: center;
@@ -244,7 +266,7 @@ img {
     .jf-flex-content {
         border-left: 4px solid var(--highlight);
         margin: 0;
-        max-width: 50%;
+        max-width: 31.25rem;
         padding-left: 2rem;
         width: auto;
     }

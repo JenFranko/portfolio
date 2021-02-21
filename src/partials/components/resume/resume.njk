@@ -1,30 +1,34 @@
 {% macro resumeContent(content) %}
 {% if content -%}
-    <div class="jf-section jf-markdown">
-        {% if content.title -%}
-            <h2>{{content.title}}</h2>
-        {%- endif %}
+    <div class="jf-section jf-resume jf-flex">
+        <div class="jf-resume-header jf-flex-header">
+            {% if content.title -%}
+                <h2 class="jf-title-caps">{{content.title}}</h2>
+            {%- endif %}
+        </div>
 
-        {% if content.jobs.length -%}
-            <ul class="jf-jobs-list">
-                {% for job in content.jobs -%}
-                    {% set dates = '' %}
-                    {% if job.date %}
-                        {% set dates = ' (' + job.date + ')' %}
-                    {% endif %}
-                    <li class="jf-job">
-                        {% if job.icon -%}
-                            <i class="fas {{ job.icon }}" aria-hidden="true"></i>
-                        {%- endif %}
-                        <h3 class="jf-job-company">{{ job.company }}{{ dates }}</h3>
-                        <h4 class="jf-job-title">{{ job.title }}</h4>
-                        {% if job.description -%}
-                        {{ job.description | markdown | safe }}
-                        {%- endif %}
-                    </li>
-                {%- endfor %}
-            </ul>
-        {%- endif %}
+        <div class="jf-resume-content jf-flex-content">
+            {% if content.jobs.length -%}
+                <ul class="jf-jobs-list">
+                    {% for job in content.jobs -%}
+                        {% set dates = '' %}
+                        {% if job.date %}
+                            {% set dates = ' (' + job.date + ')' %}
+                        {% endif %}
+                        <li class="jf-job">
+                            {% if job.icon -%}
+                                <i class="fas {{ job.icon }} jf-resume-icon" aria-hidden="true"></i>
+                            {%- endif %}
+                            <h3 class="jf-job-company">{{ job.company }}{{ dates }}</h3>
+                            <h4 class="jf-job-title">{{ job.title }}</h4>
+                            {% if job.description -%}
+                            {{ job.description | markdown | safe }}
+                            {%- endif %}
+                        </li>
+                    {%- endfor %}
+                </ul>
+            {%- endif %}
+        </div>
     </div>
 {%- endif %}
 {% endmacro %}
