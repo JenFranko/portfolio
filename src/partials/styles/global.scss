@@ -1,4 +1,10 @@
+// Global Font Imports
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@500&display=swap');
+
+// Global Theme Styles
 @import './_theme';
+
+// Font Awesome Styles
 @import './fontawesome/fontawesome';
 @import './fontawesome/regular';
 @import './fontawesome/solid';
@@ -12,8 +18,8 @@
 body {
     background-color: var(--body-bg);
     color: var(--body-text);
-    font-family: var(--primary-font);
-    font-weight: var(--default-weight);
+    font-family: var(--body-font-stack);
+    font-size: var(--body-font-size);
     line-height: 1.2;
     margin: 0;
     padding: 0;
@@ -26,8 +32,9 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font-stack);
-    font-weight: var(--heading-font-weight);
+    font-weight: 500;
     letter-spacing: 0.125rem;
+    margin: 0 0 1rem;
 }
 
 h1 {
@@ -55,8 +62,8 @@ h6 {
 }
 
 p {
-    font-size: 1.2rem;
     line-height: 1.5;
+    margin: 0 0 1rem;
 }
 
 a {
@@ -71,8 +78,9 @@ a {
 
 img {
     display: block;
+    height: auto;
     max-width: 100%;
-    width: 100%;
+    width: auto;
 }
 
 .jf-video-container {
@@ -89,33 +97,6 @@ img {
     width: 100%;
 }
 
-/* Added this min-height for now so that the footer sits at bottom
-   of screen on Support Page rather than in the middle of the screen.
-   This block of code can probably be removed once Support Page content
-   gets filled out a bit more.
-
-   Header component height + footer component height = 271px. */
-
-.jf-main {
-    min-height: calc(100vh - 16.938rem);
-}
-
-fieldset {
-    border: none;
-    margin: 0;
-    padding: 0;
-}
-
-legend {
-    display: block;
-    margin: 0 0 0.75rem;
-    padding: 0;
-}
-
-input {
-    box-sizing: border-box;
-}
-
 .jf-accessible-text {
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
@@ -125,6 +106,10 @@ input {
     overflow: hidden;
     padding: 0;
     position: absolute;
+}
+
+.jf-title-caps {
+    text-transform: uppercase;
 }
 
 .jf-section {
@@ -180,6 +165,7 @@ input {
 .jf-section-bg-img {
     flex-grow: 0;
     height: 100%;
+    max-width: none;
     object-fit: cover;
     opacity: 0;
     position: absolute;
@@ -260,5 +246,6 @@ input {
     }
 }
 
+@import '../components/about/about';
 @import '../components/greeting/greeting';
 @import '../components/resume/resume';

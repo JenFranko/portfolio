@@ -1,9 +1,8 @@
 $fa-font-path: '/assets/fonts/';
 
-$white: #FFF;
-$off-white: #FAFAFA;
-$almost-black: #0F0F0F;
-$black: #000;
+$off-white: #FCFCFC;
+$almost-black: #2A2A2A;
+$black: #0F0F0F;
 
 $green: #BABF10;
 $dark-green: #707300;
@@ -13,6 +12,24 @@ $blue: #006264;
 
 :root {
 
+    --body-font-stack: 'Open Sans', helvetica, arial, sans-serif;
+
+    --heading-font-stack: 'Roboto Slab', serif;
+
+    --h1-font-size: 4.2rem;
+
+    --h2-font-size: 3.5rem;
+
+    --h3-font-size: 2.5rem;
+
+    --h4-font-size: 1.75rem;
+
+    --h5-font-size: 1.5rem;
+
+    --h6-font-size: 1.2rem;
+
+    --body-font-size: 1.2rem;
+
     --body-bg: #{$off-white};
 
     --body-text: #{$almost-black};
@@ -21,6 +38,8 @@ $blue: #006264;
 
     --highlight-hover: #{$blue};
 
+    --highlight-text: #{$off-white};
+
     --alt-body-bg: #{$almost-black};
 
     --alt-body-text: #{$off-white};
@@ -28,4 +47,31 @@ $blue: #006264;
     --alt-highlight: #{$green};
 
     --alt-highlight-hover: #{$pink};
+
+    --alt-highlight-text: #{$almost-black};
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+
+        --body-bg: #{$almost-black};
+
+        --body-text: #{$off-white};
+
+        --highlight: #{$green};
+
+        --highlight-hover: #{$pink};
+
+        --highlight-text: #{$almost-black};
+
+        --alt-body-bg: #{$black};
+
+        --alt-body-text: #{$off-white};
+
+        --alt-highlight: #{$green};
+
+        --alt-highlight-hover: #{$pink};
+
+        --alt-highlight-text: #{$almost-black};
+    }
 }

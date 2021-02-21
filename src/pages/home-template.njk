@@ -9,6 +9,7 @@ permalink: "/"
 ---
 
 {% extends "layouts/main.njk" %}
+{% from "components/about/about.njk" import about as about %}
 {% from "components/greeting/greeting.njk" import greeting as greeting %}
 {% from "components/resume/resume.njk" import resumeContent as resumeContent %}
 
@@ -22,30 +23,7 @@ permalink: "/"
     {%- endif %}
 
     {% for section in home.data.about -%}
-        <div class="jf-section jf-markdown">
-            {% if section.title -%}
-                <h2>{{section.title}}</h2>
-            {%- endif %}
-
-            {% if section.image -%}
-                {% set imgAlt = "Jen's portrait" %}
-                {% if section.imageAlt %}
-                    {% set imgAlt = section.imgAlt %}
-                {% endif %}
-                <img src="{{section.image}}" alt="{{imgAlt}}" />
-            {%- endif %}
-
-            {% if section.text -%}
-                {{ section.text | markdown | safe }}
-            {%- endif %}
-
-            {% if home.data.attributes.length -%}
-                I am a...
-                {% for attribute in home.data.attributes -%}
-                    <span class="jf-attribute" data-percentage="{{attribute.percent}}">{{attribute.name}}</span>
-                {%- endfor %}
-            {%- endif %}
-        </div>
+        {{ about(section, home.data.attributes) }}
     {%- endfor %}
 
     {% set resume = collections.resume[0].data %}
