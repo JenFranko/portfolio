@@ -1,5 +1,5 @@
 // Global Font Imports
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto+Slab:wght@500&display=swap');
 
 // Global Theme Styles
 @import './_theme';
@@ -264,7 +264,7 @@ img {
     }
 
     .jf-flex-content {
-        border-left: 4px solid var(--highlight);
+        border-left: 5px solid var(--highlight);
         margin: 0;
         max-width: 31.25rem;
         padding-left: 2rem;
