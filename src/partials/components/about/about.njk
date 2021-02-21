@@ -1,8 +1,12 @@
-{% macro about(content, attributes) %}
-<div class="jf-section jf-markdown jf-about jf-flex">
+{% macro about(content, attributes, index) %}
+{% set aboutId = "about" %}
+{% if index > 1 %}
+    {% set aboutId = "about-" + index  %}
+{% endif %}
+<div class="jf-section jf-markdown jf-about jf-flex" id="{{ aboutId }}">
     <div class="jf-about-header jf-flex-header">
         {% if content.title -%}
-            <h2 class="jf-title-caps">{{content.title}}</h2>
+            <h2 class="jf-title-caps">{{ content.title }}</h2>
         {%- endif %}
 
         {% if content.image -%}
@@ -22,7 +26,7 @@
         {% if attributes.length -%}
             <span class="jf-accessible-text">I am a...</span>
             {% for attribute in attributes -%}
-                <span class="jf-attribute" data-percentage="{{attribute.percent}}">{{attribute.name}}</span>
+                <span class="jf-attribute">{{ attribute.name }}</span>
             {%- endfor %}
         {%- endif %}
     </div>

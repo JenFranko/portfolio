@@ -1,9 +1,9 @@
 {% macro resumeContent(content) %}
 {% if content -%}
-    <div class="jf-section jf-resume jf-flex">
+    <div class="jf-section jf-resume jf-flex" id="resume">
         <div class="jf-resume-header jf-flex-header">
             {% if content.title -%}
-                <h2 class="jf-title-caps">{{content.title}}</h2>
+                <h2 class="jf-title-caps">{{ content.title }}</h2>
             {%- endif %}
         </div>
 
