@@ -139,6 +139,10 @@ jobs:
     title: Design Technician
   - company: Skills
     description: |-
+
+
+      Proficient on both Mac and PC platforms
+
       * Art and creative direction
       * Customer experience design
       * User centered design
@@ -161,5 +165,6 @@ jobs:
       * Strong organizational skills
       * Lover of the outdoors
     icon: fa-briefcase
-    title: Proficient on both Mac and PC platforms
+    title: ''
 ---
+
