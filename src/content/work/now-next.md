@@ -22,10 +22,14 @@ description: >-
   animated features.
 link: /assets/uploads/Now-Next-300x300-1-1024x1024.jpg
 images:
-  - image: /assets/uploads/Now-Next-1000x650-1-scaled.jpg
-  - image: /assets/uploads/Now-Next-1000x650-2-scaled.jpg
-  - image: /assets/uploads/Now-Next-1000x650-3-scaled.jpg
-  - image: /assets/uploads/Now-Next-1000x650-4-scaled.jpg
+  - description: Now/Next Media Style and Brand Guideline
+    image: /assets/uploads/Now-Next-1000x650-1-scaled.jpg
+  - description: Now/Next Gallery
+    image: /assets/uploads/Now-Next-1000x650-2-scaled.jpg
+  - description: Now/Next Gallery
+    image: /assets/uploads/Now-Next-1000x650-3-scaled.jpg
+  - description: Visitors interacting with exhibit content.
+    image: /assets/uploads/Now-Next-1000x650-4-scaled.jpg
 tags: work
 ---
 
