@@ -47,8 +47,8 @@ permalink: "/work/{{ work.data.title | slug }}/"
         {% endfor %}
 
         <div class="jf-work-nav">
-            {% set previousPost = collections.work | getPreviousCollectionItem(work) %}
-            {% set nextPost = collections.work | getNextCollectionItem(work) %}
+            {% set previousPost = collections.work | sortByDate | reverse | getPreviousCollectionItem(work) %}
+            {% set nextPost = collections.work | sortByDate | reverse  | getNextCollectionItem(work) %}
             <p class="jf-work-prev">
                 {% if previousPost -%}
                 <a href="/work/{{ previousPost.data.title | slug }}" class="jf-work-nav-link" aria-label="Previous Work Sample: {{ previousPost.data.title }}">

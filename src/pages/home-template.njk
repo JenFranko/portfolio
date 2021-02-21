@@ -35,17 +35,7 @@ permalink: "/"
     {% set downloadText = collections.info[0].data.download %}
     {{ resumeContent(resume) }}
 
-    {{ collections.work | sortByDate }}<br />
-    {% set lorem = collections.work[0].data.date %}
-    {% set ipsum = collections.work[1].data.date %}
-    {{ lorem }}<br />
-    {{ ipsum }}<br />
-
     {% set workSamples = collections.work | sortByDate | reverse %}
-    {% set dolor = workSamples[0].data.date %}
-    {% set sit = workSamples[1].data.date %}
-    {{ dolor }}<br />
-    {{ sit }}<br />
     {% set workTitle = collections.info[0].data.work %}
     {{ workSection(
         workSamples,
