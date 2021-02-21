@@ -1,7 +1,7 @@
 ---
 title: Worst Case Scenario
 date: 2019-08-09T02:02:40.185Z
-link: /assets/uploads/WCS-1000x650-1-205x205.jpg
+link: /assets/uploads/WCS-300x300-1-1024x1024.jpg
 images:
   - image: /assets/uploads/WCS-1000x650-1-scaled.jpg
   - image: /assets/uploads/WCS-1000x650-2-scaled.jpg
