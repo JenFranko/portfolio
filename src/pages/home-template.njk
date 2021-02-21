@@ -9,19 +9,16 @@ permalink: "/"
 ---
 
 {% extends "layouts/main.njk" %}
+{% from "components/greeting/greeting.njk" import greeting as greeting %}
 {% from "components/resume/resume.njk" import resumeContent as resumeContent %}
 
 {% block content %}
     {% if home.data.greeting -%}
-        <div class="jf-section jf-markdown">
-            {{ home.data.greeting | markdown | safe }}
-
-            <div class="jf-section-bg">
-            {% for bg in home.data.greeting_bg -%}
-                <img src="{{bg.image}}" alt="" class="jg-section-bg-img" />
-            {%- endfor %}
-            </div>
-        </div>
+        {{ greeting(
+            home.data.greeting,
+            home.data.greeting_bg,
+            collections.info[0].data.social
+        ) }}
     {%- endif %}
 
     {% for section in home.data.about -%}
