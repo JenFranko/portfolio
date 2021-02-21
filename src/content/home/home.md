@@ -15,7 +15,7 @@ about:
       ### Hi, I'm Jen!
 
 
-      I’m a highly collaborative graphic designer, art director, multitasker
+      I’m a highly collaborative visual designer, art director, multitasker
       extraordinaire, and a pretty badass weekend warrior mountain biker.
 
 
