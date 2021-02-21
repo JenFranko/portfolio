@@ -4,12 +4,12 @@ email: jenfranko@gmail.com
 phone: ''
 location: 'Philadelphia, PA'
 social:
-  - image: /assets/uploads/overlay.png
+  - image: fa-instagram
     name: Instagram
-    url: fa-instagram
-  - image: /assets/uploads/overlay.png
+    url: http://www.instagram.com/jeneffindudek
+  - image: fa-linkedin
     name: Linkedin
-    url: fa-linkedin
+    url: http://www.linkedin.com/in/jennifer-franko-dudek
 download: Download a pdf
 contact: Get in touch
 tags: info
