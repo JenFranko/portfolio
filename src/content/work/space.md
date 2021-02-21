@@ -1,7 +1,7 @@
 ---
 title: Space
 date: 2020-12-10T19:01:15.809Z
-link: /assets/uploads/Space-1000x650-1-205x205.jpg
+link: /assets/uploads/Space-300x300-1-1024x1024.jpg
 images:
   - description: After
     image: /assets/uploads/Space-1000x650-1-scaled.jpg
