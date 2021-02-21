@@ -30,10 +30,14 @@ images:
     image: /assets/uploads/WCS-1000x650-4-scaled.jpg
   - description: Illustrations assets from book
     image: /assets/uploads/WCS-1000x650-5-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-6-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-7-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-8-scaled.jpg
-  - image: /assets/uploads/WCS-1000x650-9-scaled.jpg
+  - description: 'Website, Email and Social Media'
+    image: /assets/uploads/WCS-1000x650-6-scaled.jpg
+  - description: Building Banners and Signage
+    image: /assets/uploads/WCS-1000x650-7-scaled.jpg
+  - description: In-building Marketing Signage
+    image: /assets/uploads/WCS-1000x650-8-scaled.jpg
+  - description: Digital Billboards
+    image: /assets/uploads/WCS-1000x650-9-scaled.jpg
   - image: /assets/uploads/WCS-1000x650-10-scaled.jpg
   - image: /assets/uploads/WCS-1000x650-11-scaled.jpg
   - image: /assets/uploads/WCS-1000x650-12-scaled.jpg
