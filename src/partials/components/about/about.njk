@@ -1,6 +1,6 @@
 {% macro about(content, attributes) %}
-<div class="jf-section jf-markdown jf-about">
-    <div class="jf-about-header">
+<div class="jf-section jf-markdown jf-about jf-flex">
+    <div class="jf-about-header jf-flex-header">
         {% if content.title -%}
             <h2 class="jf-title-caps">{{content.title}}</h2>
         {%- endif %}
@@ -14,7 +14,7 @@
         {%- endif %}
     </div>
 
-    <div class="jf-about-content">
+    <div class="jf-about-content jf-flex-content">
         {% if content.text -%}
             {{ content.text | markdown | safe }}
         {%- endif %}

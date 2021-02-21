@@ -7,11 +7,6 @@
     display: none;
 }
 
-.jf-about-header {
-    margin: 0 0 1rem;
-    text-align: center;
-}
-
 .jf-attribute {
     background-color: var(--highlight);
     color: var(--highlight-text);
@@ -33,34 +28,11 @@
 }
 
 @media screen and (min-width: 40.5rem) {
-    .jf-about {
-        align-items: flex-start;
-        display: flex;
-        justify-content: center;
-        padding-bottom: 6rem;
-        padding-top: 4rem;
-    }
-
-    .jf-about-header {
-        padding: 0;
-        margin: 0 2rem 0 0;
-        text-align: right;
-        width: 16rem;
-    }
-
     .jf-portrait {
         border-radius: 16rem;
         display: block;
         margin: 0 0 0 auto;
         max-width: 16rem;
         overflow: hidden;
-    }
-
-    .jf-about-content {
-        border-left: 4px solid var(--highlight);
-        margin: 0;
-        max-width: 50%;
-        padding-left: 2rem;
-        width: auto;
     }
 }
