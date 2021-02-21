@@ -60,12 +60,12 @@ p {
 }
 
 a {
-    color: var(--body-link);
+    color: var(--highlight);
     text-decoration: underline;
 
     &:hover,
     &:focus {
-        color: var(--body-link-hover);
+        color: var(--highlight-hover);
     }
 }
 
@@ -135,11 +135,103 @@ input {
     padding: 1.5rem 1rem;
     position: relative;
     width: 100%;
+    z-index: 10;
+
+    a {
+        color: var(--highlight);
+
+        &:hover,
+        &:focus {
+            color: var(--highlight-hover);
+        }
+    }
 
     &:nth-child(odd) {
         background-color: var(--alt-body-bg);
         color: var(--alt-body-text);
+
+        a {
+            color: var(--alt-highlight);
+
+            &:hover,
+            &:focus {
+                color: var(--alt-highlight-hover);
+            }
+        }
     }
+}
+
+.jf-section-bg {
+    align-items: center;
+    background-color: #000;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    user-select: none;
+    z-index: 1;
+}
+
+.jf-section-bg-img {
+    flex-grow: 0;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    position: absolute;
+    user-select: none;
+    width: 100%;
+
+    &:first-child {
+        opacity: 1;
+    }
+}
+
+.jf-social-list {
+    list-style: none;
+    margin: 0.75rem 0;
+    padding: 0;
+}
+
+.jf-social-item {
+    display: inline-block;
+    height: 3.75rem;
+    margin: 0 1rem;
+    width: 3.75rem;
+}
+
+.jf-social-link {
+    background: rgba(0, 0, 0, 0.25);
+    border: 2px solid transparent;
+    border-radius: 4rem;
+    color: var(--alt-body-text);
+    display: block;
+    font-size: 2rem;
+    height: 3.75rem;
+    margin: 0 1rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    width: 3.75rem;
+
+    &:hover,
+    &:focus {
+        background-color: rgba(0, 0, 0, 0.75);
+        border-color: var(--alt-highlight);
+        color: var(--alt-highlight);
+        font-size: 2.25rem;
+    }
+}
+
+.jf-social-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @media screen and (min-width: 48rem) {
@@ -167,3 +259,6 @@ input {
         padding: 3rem 4rem;
     }
 }
+
+@import '../components/greeting/greeting';
+@import '../components/resume/resume';

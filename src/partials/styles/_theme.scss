@@ -5,13 +5,27 @@ $off-white: #FAFAFA;
 $almost-black: #0F0F0F;
 $black: #000;
 
+$green: #BABF10;
+$dark-green: #707300;
+
+$pink: #E8858D;
+$blue: #006264;
+
 :root {
 
     --body-bg: #{$off-white};
 
     --body-text: #{$almost-black};
 
+    --highlight: #{$dark-green};
+
+    --highlight-hover: #{$blue};
+
     --alt-body-bg: #{$almost-black};
 
     --alt-body-text: #{$off-white};
+
+    --alt-highlight: #{$green};
+
+    --alt-highlight-hover: #{$pink};
 }
