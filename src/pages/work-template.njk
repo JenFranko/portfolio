@@ -13,11 +13,57 @@ permalink: "/work/{{ work.data.title | slug }}/"
 {% extends "layouts/main.njk" %}
 
 {% block content %}
-    <div class="jf-markdown">
+<div class="jf-section jf-work-section">
+    <div class="jf-work-back">
+        <a href="/#work" class="jf-back" aria-label="Back to home Page">
+            <i aria-hidden="true" class="fas fa-arrow-left"></i>
+        </a>
+    </div>
+
+    <div class="jf-work-content">
         <h1>{{ work.data.title | markdown | safe }}</h1>
 
         {% if work.data.description -%}
             {{ work.data.description | markdown | safe }}
         {%- endif %}
+
+        {% for section in work.data.images %}
+            {% set imgAlt = "I am so sorry... I didn't write a description of my work" %}
+            {% if section.description %}
+                {% set imgAlt = "" %}
+            {% endif %}
+            <img src={{ section.image }} alt="{{ imgAlt }}" class="jf-work-detail" aria-describedby="jf-work-{{ loop.index }}" />
+
+
+            {% if section.description -%}
+                <p class="jf-work-description" id="jf-work-{{ loop.index }}">
+                    {{ section.description }}
+                </p>
+            {% else %}
+                <p class="jf-work-description jf-accessible-text" id="jf-work-{{ loop.index }}">
+                    {{ imgAlt }}
+                </p>
+            {%- endif %}
+        {% endfor %}
+
+        <div class="jf-work-nav">
+            {% set previousPost = collections.work | getPreviousCollectionItem(work) %}
+            {% set nextPost = collections.work | getNextCollectionItem(work) %}
+            <p class="jf-work-prev">
+                {% if previousPost -%}
+                <a href="/work/{{ previousPost.data.title | slug }}" class="jf-work-nav-link" aria-label="Previous Work Sample: {{ previousPost.data.title }}">
+                    {{ previousPost.data.title }}
+                </a>
+                {%- endif %}
+            </p>
+            <p class="jf-work-next">
+                {% if nextPost -%}
+                <a href="/work/{{ nextPost.data.title | slug }}" class="jf-work-nav-link" aria-label="Next Work Sample: {{ nextPost.data.title }}">
+                    {{ nextPost.data.title }}
+                </a>
+                {%- endif %}
+            </p>
+        </div>
     </div>
+</div>
 {% endblock %}
