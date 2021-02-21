@@ -14,7 +14,9 @@ description: >-
   Art Director and designer on the agency team responsbile for contributing and
   creating impactful experiential and brand activation, environmental and
   structural applied art, pre-event comms, evening event branding, concept/theme
-  development, project management and organization.
+  development, project management and organization. Worked closely with agnecy
+  Creative Director and Lenovo's Director of Global branding to assure brand
+  consistancy and alignment.
 link: /assets/uploads/TechWorld-300x300.jpg
 tags: work
 ---
