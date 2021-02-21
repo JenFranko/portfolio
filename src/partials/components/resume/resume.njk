@@ -1,9 +1,17 @@
-{% macro resumeContent(content) %}
+{% macro resumeContent(content, downloadText) %}
 {% if content -%}
     <div class="jf-section jf-resume jf-flex" id="resume">
         <div class="jf-resume-header jf-flex-header">
             {% if content.title -%}
                 <h2 class="jf-title-caps">{{ content.title }}</h2>
+                {% if content.file -%}
+                    <h3 class="jf-resume-download">
+                        <a href="{{ content.file }}" class="jf-resume-link">
+                            {{ downloadText }}
+                            <i class="fa fa-file-pdf" aria-hidden="true"></i>
+                        </a>
+                    </h3>
+                {%-endif %}
             {%- endif %}
         </div>
 
