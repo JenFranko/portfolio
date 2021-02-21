@@ -1,6 +1,23 @@
 ---
-title: Worst Case Scenario
+title: 'The Worst-Case Scenario: Survival Experience'
 date: 2019-08-09T02:02:40.185Z
+description: >-
+  #### PROJECT OVERVIEW
+
+
+  Be prepared. Don’t panic. Have a plan. *The Worst-Case Scenario: Survival
+  Experience* World Premiere Exhibit was based on the internationally
+  bestselling book series *The Worst-Case Scenario Survival Handbook.* Featured
+  a 76,000-ball pit as its centerpiece, a horizontal climbing wall, a train car
+  jump, lock picking challenges, upside-down tic-tac-toe, and more—this
+  kid-friendly experience immerses you in various challenges to build your
+  survival smarts.
+
+
+  Conceptualized, art directed, designed and implemented branding and creative
+  marketing campaign working closely with Marketing Art Director to assure
+  alignment through in-building experience and representation in the
+  marketplace.
 link: /assets/uploads/WCS-300x300-1-1024x1024.jpg
 images:
   - image: /assets/uploads/WCS-1000x650-1-scaled.jpg
