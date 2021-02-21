@@ -33,7 +33,10 @@ permalink: "/"
 
     {% set resume = collections.resume[0].data %}
     {% set downloadText = collections.info[0].data.download %}
-    {{ resumeContent(resume) }}
+    {{ resumeContent(
+        resume,
+        downloadText
+    ) }}
 
     {% set workSamples = collections.work | sortByDate | reverse %}
     {% set workTitle = collections.info[0].data.work %}

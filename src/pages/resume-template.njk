@@ -12,5 +12,9 @@ permalink: "/resume/"
 {% from "components/resume/resume.njk" import resumeContent as resumeContent %}
 
 {% block content %}
-    {{ resumeContent(resume.data) }}
+    {% set downloadText = collections.info[0].data.download %}
+    {{ resumeContent(
+        resume.data,
+        downloadText
+    ) }}
 {% endblock %}
