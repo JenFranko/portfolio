@@ -1,0 +1,76 @@
+.jf-work-list {
+    column-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 12rem);
+    grid-template-rows: repeat(auto-fill, 12rem);
+    list-style: none;
+    margin: 0;
+    max-width: 31.25rem;
+    padding: 0;
+    row-gap: 1rem;
+    width: 100%;
+    z-index: 10;
+}
+
+.jf-work-sample {
+    align-items: center;
+    border-radius: 12rem;
+    display: flex;
+    height: 12rem;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+
+.jf-work-text {
+    display: block;
+    font-size: 1.2rem;
+    height: 12rem;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 12rem;
+    z-index: 10;
+}
+
+a.jf-work-link {
+    background-color: var(--highlight);
+    color: var(--highlight);
+    display: block;
+    height: 12rem;
+    opacity: 0.01;
+    transition: 0.3s ease color, 0.3s ease background-color, 0.3s ease opacity;
+    width: 12rem;
+    z-index: 10;
+
+    span {
+        display: block;
+        left: 1rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 10rem;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: rgba($dark-green, 0.9);
+        color: $off-white;
+        opacity: 1;
+    }
+}
+
+.jf-work-img {
+    flex-grow: 0;
+    left: 0;
+    max-width: none;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 12rem;
+    z-index: 1;
+}

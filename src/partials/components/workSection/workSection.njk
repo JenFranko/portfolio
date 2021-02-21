@@ -8,15 +8,15 @@
         </div>
 
         <div class="jf-work-content jf-flex-content">
-            <ul class="jf-work-list">
+            <ul class="jf-work-list" role="list">
                 {% for sample in samples -%}
                     {% set imgAlt = sample.data.title %}
                     {% if sample.data.description %}
                         {% set imgAlt = sample.data.description %}
                     {% endif %}
-                    <li class="jf-work-sample">
+                    <li class="jf-work-sample" role="listitem">
                         <h3 class="jf-work-text">
-                            <a href="/work/{{ sample.data.title | slug }}" class="jf-work-link">{{ sample.data.title }}</a>
+                            <a href="/work/{{ sample.data.title | slug }}" class="jf-work-link"><span>{{ sample.data.title }}</span></a>
                         </h3>
                         <img src="{{ sample.data.link }}" alt="{{ imgAlt }}" class="jf-work-img" />
                     </li>
