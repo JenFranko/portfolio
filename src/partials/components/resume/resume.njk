@@ -28,7 +28,9 @@
                                 <i class="fas {{ job.icon }} jf-resume-icon" aria-hidden="true"></i>
                             {%- endif %}
                             <h3 class="jf-job-company">{{ job.company }}{{ dates }}</h3>
-                            <h4 class="jf-job-title">{{ job.title }}</h4>
+                            {% if job.title -%}
+                                <h4 class="jf-job-title">{{ job.title }}</h4>
+                            {%- endif %}
                             {% if job.description -%}
                             {{ job.description | markdown | safe }}
                             {%- endif %}
