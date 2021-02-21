@@ -1,0 +1,25 @@
+{% macro greeting(content, backgrounds, social) %}
+<div class="jf-section jf-greeting">
+    <div class="jf-greeting-content">
+        {{ content | markdown | safe }}
+
+        {% if social -%}
+        <ul class="jf-social-list">
+            {% for platform in social -%}
+            <li class="jf-social-item">
+                <a href="{{ platform.link }}" class="jf-social-link" aria-label="Follow me on {{ platform.name }}">
+                    <i class="fab {{ platform.image }} jf-social-icon" aria-hidden="true"></i>
+                </a>
+            </li>
+            {%- endfor %}
+        </ul>
+        {%- endif %}
+    </div>
+
+    <div class="jf-section-bg">
+    {% for bg in backgrounds -%}
+        <img src="{{ bg.image }}" alt="" class="jf-section-bg-img" />
+    {%- endfor %}
+    </div>
+</div>
+{% endmacro %}

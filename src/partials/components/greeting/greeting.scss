@@ -1,0 +1,36 @@
+.jf-greeting {
+    z-index: 10;
+}
+
+.jf-greeting-content {
+    left: 50%;
+    max-width: 37.5rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 10;
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .jf-name {
+        display: block;
+        font-size: 4rem;
+        text-transform: uppercase;
+    }
+
+    a.jf-social-link {
+        color: var(--alt-body-text);
+
+        &:hover,
+        &:focus {
+            background-color: rgba(0, 0, 0, 0.75);
+            border-color: var(--alt-highlight);
+            color: var(--alt-highlight);
+            font-size: 2.25rem;
+        }
+    }
+}
