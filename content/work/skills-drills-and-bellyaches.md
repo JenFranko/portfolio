@@ -8,6 +8,9 @@ description: >-
   Greenbuild is the largest annual event for green building professionals
   worldwide to learn and source cutting edge solutions to improve resilience,
   sustainability, and quality of life in our buildings, cities, and communities.
+
+
+  Lead designer charged with conceptualizing and creating conference collateral.
 link: /assets/uploads/GB2008-300x300.jpg
 tags: work
 ---
