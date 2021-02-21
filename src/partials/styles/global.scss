@@ -148,7 +148,7 @@ img {
         }
     }
 
-    &:nth-child(odd) {
+    &:nth-child(odd):not(.jf-work-page) {
         background-color: var(--alt-body-bg);
         color: var(--alt-body-text);
 
@@ -303,3 +303,4 @@ img {
 @import '../components/about/about';
 @import '../components/greeting/greeting';
 @import '../components/resume/resume';
+@import '../components/workSection/workSection';
