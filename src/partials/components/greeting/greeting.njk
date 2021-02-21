@@ -6,9 +6,13 @@
         {% if social -%}
         <ul class="jf-social-list">
             {% for platform in social -%}
+            {% set faClass = "fa" %}
+            {% if platform.brand %}
+                {% set faClass = "fab" %}
+            {% endif %}
             <li class="jf-social-item">
-                <a href="{{ platform.link }}" class="jf-social-link" aria-label="Follow me on {{ platform.name }}">
-                    <i class="fab {{ platform.image }} jf-social-icon" aria-hidden="true"></i>
+                <a href="{{ platform.link }}" class="jf-social-link" aria-label="{{ platform.text }}">
+                    <i class="{{ faClass }} {{ platform.image }} jf-social-icon" aria-hidden="true"></i>
                 </a>
             </li>
             {%- endfor %}
