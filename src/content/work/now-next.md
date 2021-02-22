@@ -24,12 +24,15 @@ link: /assets/uploads/Now-Next-300x300-1-1024x1024.jpg
 images:
   - description: Now/Next Media Style and Brand Guideline
     image: /assets/uploads/Now-Next-1000x650-1-scaled.jpg
+    layout: full
   - description: Now/Next Gallery
     image: /assets/uploads/Now-Next-1000x650-2-scaled.jpg
+    layout: left
   - description: Now/Next Gallery
     image: /assets/uploads/Now-Next-1000x650-3-scaled.jpg
+    layout: right
   - description: Visitors interacting with exhibit content.
     image: /assets/uploads/Now-Next-1000x650-4-scaled.jpg
+    layout: full
 tags: work
 ---
-
