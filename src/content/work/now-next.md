@@ -2,7 +2,7 @@
 title: Now/Next
 date: 2020-10-01T18:01:29.948Z
 description: >-
-  #### PROJECT OVERVIEW
+  ## Project Overview
 
 
   NOW/NEXT is built for speed, features changing exhibits fueled by pop culture
