@@ -1,6 +1,6 @@
 {% macro workSection(samples, title, file, fileText) %}
 {% if samples -%}
-    <div class="jf-section jf-work jf-flex" id="work">
+    <div class="jf-section jf-flex" id="work">
         <div class="jf-flex-header">
             {% if title -%}
                 <h2 class="jf-title-caps">{{ title }}</h2>
@@ -15,7 +15,7 @@
             {%-endif %}
         </div>
 
-        <div class="jf-work-content jf-flex-content">
+        <div class="jf-flex-content">
             <ul class="jf-work-list" role="list">
                 {% for sample in samples -%}
                     {% set imgAlt = sample.data.title %}
