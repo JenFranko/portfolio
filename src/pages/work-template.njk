@@ -17,36 +17,43 @@ permalink: "/work/{{ work.data.title | slug }}/"
     <header class="jf-work-header">
         <h1 class="jf-work-title">{{ work.data.title }}</h1>
 
-        <div class="jf-work-back">
-            <a href="/#work" class="jf-back" aria-label="Back to home Page">
-                <i aria-hidden="true" class="fas fa-arrow-left"></i>
+        <p class="jf-work-back">
+            <a href="/#work" class="jf-header-link jf-back" aria-label="Back to home Page">
+                <i aria-hidden="true" class="jf-link-icon fas fa-arrow-left"></i>
             </a>
-        </div>
-    </header>
+        </p>
 
-    <div class="jf-work-content">
         {% if work.data.file -%}
             {% set downloadText = collections.info[0].data.work_download_singular %}
             <p class="jf-work-download">
-                <a href="{{ work.data.file }}" class="jf-work-dl-link" target="_blank" rel="noopener noreferrer">
-                    {{ downloadText }}
-                    <i class="fa fa-file-pdf" aria-hidden="true"></i>
+                <a href="{{ work.data.file }}" class="jf-header-link jf-work-dl-link" aria-label="{{ downloadText }}" target="_blank" rel="noopener noreferrer">
+                    <i class="jf-link-icon fa fa-file-pdf" aria-hidden="true"></i>
                 </a>
             </p>
         {%-endif %}
+    </header>
 
-        {% set heroAlt = "I am so sorry... I didn't write a description of my work" %}
-        {% if work.data.description %}
-            {% set heroAlt = "" %}
-        {% endif %}
-        {% if work.data.hero -%}
-            <img src="{{ work.data.hero }}" class="jf-image-hero" alt="{{ heroAlt }}" aria-describedby="work-description" />
-        {%- endif %}
+    {% if work.data.hero -%}
+        <div class="jf-work-hero-container">
+            <img src="{{ work.data.hero }}" class="jf-image-hero" alt="" aria-describedby="work-description" />
 
-        {% if work.data.description -%}
-            {{ heroAlt | markdown | safe }}
-        {%- endif %}
+            {% if work.data.description -%}
+                <div class="jf-work-hero-description jf-work-project-description" id="work-description">
+                    {{ work.data.description | markdown | safe }}
+                </div>
+            {% else %}
+                <p class="jf-work-description jf-accessible-text" id="work-description">
+                    I am so sorry... I didn't write a description of my work
+                </p>
+            {%- endif %}
+        {% elif work.data.description %}
+            <div class="jf-work-project-description">
+                {{ work.data.description | markdown | safe }}
+            </div>
+        </div>
+    {%- endif %}
 
+    <div class="jf-work-content">
         {% for section in work.data.images %}
             {% set imgLayout = "jf-sample-container jf-sample-full" %}
             {% set imgClass = "jf-work-detail jf-image-full" %}
@@ -54,22 +61,18 @@ permalink: "/work/{{ work.data.title | slug }}/"
                 {% set imgLayout = "jf-sample-container jf-sample-" + section.layout %}
                 {% set imgLayout = "jf-work-detail jf-image-" + section.layout %}
               {% endif %}
-            {% set imgAlt = "I am so sorry... I didn't write a description of my work" %}
-            {% if section.description %}
-                {% set imgAlt = "" %}
-            {% endif %}
 
             <div class="{{ imgLayout }}">
               {% set descId = "jf-work-" + loop.index %}
-              <img src="{{ section.image }}" alt="{{ imgAlt }}" class="{{ imgClass }}" aria-describedby="{{ descId }}" />
+              <img src="{{ section.image }}" alt="" class="{{ imgClass }}" aria-describedby="{{ descId }}" />
 
               {% if section.description -%}
-                  <p class="jf-work-description" id="{{ descId }}">
+                  <div class="jf-work-description" id="{{ descId }}">
                       {{ section.description | markdown | safe }}
-                  </p>
+                  </div>
               {% else %}
                   <p class="jf-work-description jf-accessible-text" id="{{ descId }}">
-                      {{ imgAlt | markdown | safe }}
+                      I am so sorry... I didn't write a description of my work
                   </p>
               {%- endif %}
             </div>
@@ -78,7 +81,7 @@ permalink: "/work/{{ work.data.title | slug }}/"
         <div class="jf-work-nav">
             {% set previousPost = collections.work | sortByDate | reverse | getPreviousCollectionItem(work) %}
             {% set nextPost = collections.work | sortByDate | reverse  | getNextCollectionItem(work) %}
-            <p class="jf-work-prev">
+            <p class="jf-work-nav-item jf-work-prev">
                 {% if previousPost -%}
                 <img src="{{ previousPost.data.link }}" class="jf-work-nav-img" alt="" />
 
@@ -87,7 +90,7 @@ permalink: "/work/{{ work.data.title | slug }}/"
                 </a>
                 {%- endif %}
             </p>
-            <p class="jf-work-next">
+            <p class="jf-work-nav-item jf-work-next">
                 {% if nextPost -%}
                 <a href="/work/{{ nextPost.data.title | slug }}" class="jf-work-nav-link" aria-label="Next Work Sample: {{ nextPost.data.title }}">
                     {{ nextPost.data.title }}
