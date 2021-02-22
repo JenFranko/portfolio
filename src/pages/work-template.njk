@@ -57,10 +57,10 @@ permalink: "/work/{{ work.data.title | slug }}/"
         {% for section in work.data.images %}
             {% set imgLayout = "jf-sample-container jf-sample-full" %}
             {% set imgClass = "jf-work-detail jf-image-full" %}
-            {% if section.layout -%}
-                {% set imgLayout = "jf-sample-container jf-sample-" + section.layout %}
-                {% set imgLayout = "jf-work-detail jf-image-" + section.layout %}
-              {% endif %}
+            {% if section.layout !== "full" -%}
+                {% set imgLayout = "jf-sample-container jf-sample-split" %}
+                {% set imgClass = "jf-work-detail jf-image-split" %}
+            {% endif %}
 
             <div class="{{ imgLayout }}">
               {% set descId = "jf-work-" + loop.index %}

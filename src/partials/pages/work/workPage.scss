@@ -122,8 +122,6 @@
 }
 
 .jf-work-content {
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     max-width: 92rem;
     padding: 2.5rem 1rem 1rem;
@@ -157,6 +155,7 @@
 }
 
 .jf-work-description {
+    font-size: 1rem;
     margin: 0 auto;
     max-width: 60rem;
     padding: 2rem 2rem 0;
@@ -211,5 +210,17 @@
         min-height: 100vh;
         padding-left: 2.5rem;
         padding-right: 2.5rem;
+    }
+
+    .jf-sample-split {
+        display: inline-block;
+        font-size: 0;
+        justify-content: space-between;
+        vertical-align: top;
+        width: 47.5%;
+
+        &:nth-child(odd) {
+            margin-left: 4.58%;
+        }
     }
 }
