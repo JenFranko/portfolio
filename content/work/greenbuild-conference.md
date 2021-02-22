@@ -14,7 +14,7 @@ description: >-
 link: /assets/uploads/GB2008-300x300.jpg
 images:
   - description: Greenbuild Conference Program Spread
-    image: /assets/uploads/GB2008-1440-1.jpg
+    image: /assets/uploads/greenbuild-1.jpg
     layout: full
   - description: Expo Guide Vendor Spread
     image: /assets/uploads/GB2008-768-2.jpg
@@ -27,4 +27,3 @@ images:
     layout: full
 tags: work
 ---
-
