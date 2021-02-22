@@ -22,32 +22,45 @@ link: /assets/uploads/WCS-300x300-1-1024x1024.jpg
 images:
   - description: Creative Package
     image: /assets/uploads/WCS-1000x650-1-scaled.jpg
+    layout: full
   - description: Logo and Sponsorship Lockup
     image: /assets/uploads/WCS-1000x650-2-scaled.jpg
+    layout: full
   - description: 'Color Palette, Design Elements and Fonts'
     image: /assets/uploads/WCS-1000x650-3-scaled.jpg
+    layout: full
   - description: Illustrations assets from book
     image: /assets/uploads/WCS-1000x650-4-scaled.jpg
+    layout: full
   - description: Illustrations assets from book
     image: /assets/uploads/WCS-1000x650-5-scaled.jpg
+    layout: full
   - description: 'Website, Email and Social Media'
     image: /assets/uploads/WCS-1000x650-6-scaled.jpg
+    layout: full
   - description: Building Banners and Signage
     image: /assets/uploads/WCS-1000x650-7-scaled.jpg
+    layout: full
   - description: In-building Marketing Signage
     image: /assets/uploads/WCS-1000x650-8-scaled.jpg
+    layout: full
   - description: Digital Billboards
     image: /assets/uploads/WCS-1000x650-9-scaled.jpg
+    layout: full
   - description: Banner Advertisements
     image: /assets/uploads/WCS-1000x650-10-scaled.jpg
+    layout: full
   - description: Digital Display Advertisements
     image: /assets/uploads/WCS-1000x650-11-scaled.jpg
+    layout: full
   - description: Print Advertisements
     image: /assets/uploads/WCS-1000x650-12-scaled.jpg
+    layout: full
   - description: Promotional Materials
     image: /assets/uploads/WCS-1000x650-13-scaled.jpg
+    layout: full
   - description: Pop-up Banner and Step & Repeat for promotional events
     image: /assets/uploads/WCS-1000x650-14-scaled.jpg
+    layout: full
 tags: work
 ---
-
