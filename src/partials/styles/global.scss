@@ -148,9 +148,18 @@ img {
         }
     }
 
-    &:nth-child(odd):not(.jf-work-page) {
+    &:nth-child(odd) {
         background-color: var(--alt-body-bg);
         color: var(--alt-body-text);
+
+        a {
+            color: var(--alt_highlight);
+
+            &:hover,
+            &:focus {
+                color: var(--alt_highlight-hover);
+            }
+        }
     }
 }
 

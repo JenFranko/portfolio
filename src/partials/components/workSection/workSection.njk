@@ -1,10 +1,18 @@
-{% macro workSection(samples, title) %}
+{% macro workSection(samples, title, file, fileText) %}
 {% if samples -%}
     <div class="jf-section jf-work jf-flex" id="work">
         <div class="jf-work-header jf-flex-header">
             {% if title -%}
                 <h2 class="jf-title-caps">{{ title }}</h2>
             {%- endif %}
+            {% if file -%}
+                <h3 class="jf-resume-download">
+                    <a href="{{ file }}" class="jf-resume-link" target="_blank" rel="noopener noreferrer">
+                        {{ fileText }}
+                        <i class="fa fa-file-pdf" aria-hidden="true"></i>
+                    </a>
+                </h3>
+            {%-endif %}
         </div>
 
         <div class="jf-work-content jf-flex-content">
