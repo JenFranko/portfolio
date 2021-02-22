@@ -2,7 +2,7 @@
 title: Greenbuild Conference Collateral
 date: 2014-02-11T04:25:00.000Z
 description: >-
-  #### PROJECT OVERVIEW
+  ## Project Overview
 
 
   Greenbuild is the largest annual event for green building professionals
