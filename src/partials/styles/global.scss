@@ -84,12 +84,12 @@ li {
 }
 
 a {
-    color: var(--highlight);
+    color: var(--link);
     text-decoration: underline;
 
     &:hover,
     &:focus {
-        color: var(--highlight-hover);
+        color: var(--link-hover);
     }
 }
 
@@ -140,11 +140,11 @@ img {
     z-index: 10;
 
     a {
-        color: var(--highlight);
+        color: var(--link);
 
         &:hover,
         &:focus {
-            color: var(--highlight-hover);
+            color: var(--link-hover);
         }
     }
 
@@ -153,11 +153,11 @@ img {
         color: var(--alt-body-text);
 
         a {
-            color: var(--alt_highlight);
+            color: var(--alt-link);
 
             &:hover,
             &:focus {
-                color: var(--alt_highlight-hover);
+                color: var(--alt-link-hover);
             }
         }
     }
