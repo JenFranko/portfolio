@@ -4,25 +4,21 @@
     z-index: 50;
 
     h2 {
-        font-size: var(--h3-font-size);
-        text-transform: uppercase;
-    }
-
-    h3 {
         font-size: var(--h4-font-size);
         text-transform: uppercase;
     }
 
-    h4 {
+    h3 {
         font-size: var(--h5-font-size);
         text-transform: uppercase;
     }
 
-    h5 {
+    h4 {
         font-size: var(--h6-font-size);
         text-transform: uppercase;
     }
 
+    h5,
     h6 {
         font-size: var(--body-font-size);
         text-transform: uppercase;
