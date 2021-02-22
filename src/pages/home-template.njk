@@ -18,7 +18,7 @@ permalink: "/"
     {% if home.data.greeting -%}
         {{ greeting(
             home.data.greeting,
-            home.data.greeting_bg,
+            [home.data.greeting_bg[0]],
             collections.info[0].data.social
         ) }}
     {%- endif %}

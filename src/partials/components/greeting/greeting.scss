@@ -1,5 +1,21 @@
 .jf-greeting {
+    background-color: var(--alt-body-bg);
+    color: var(--alt-body-text);
+    display: block;
+    min-height: 100vh;
+    padding: 1.5rem 1rem;
+    position: relative;
+    width: 100%;
     z-index: 10;
+
+    a {
+        color: var(--link);
+
+        &:hover,
+        &:focus {
+            color: var(--link-hover);
+        }
+    }
 }
 
 .jf-greeting-content {
