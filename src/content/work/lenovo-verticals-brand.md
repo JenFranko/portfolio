@@ -17,6 +17,11 @@ description: >-
   development, project management and organization. Worked closely with agnecy
   Creative Director and Lenovo's Director of Global branding to assure brand
   consistancy and alignment.
+hero: /assets/uploads/TW-Full-1.jpg
 link: /assets/uploads/TechWorld-300x300.jpg
+images:
+  - image: /assets/uploads/TW-Full-1.jpg
+    layout: full
 tags: work
 ---
+
