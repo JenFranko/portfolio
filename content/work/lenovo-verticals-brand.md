@@ -22,6 +22,26 @@ link: /assets/uploads/TechWorld-300x300.jpg
 images:
   - image: /assets/uploads/TW-Full-1.jpg
     layout: full
+  - image: /assets/uploads/TW-Left-1.jpg
+    layout: left
+  - image: /assets/uploads/TW-Right-1.jpg
+    layout: right
+  - image: /assets/uploads/TW-Left-2.jpg
+    layout: left
+  - image: /assets/uploads/TW-Right-2.jpg
+    layout: right
+  - image: /assets/uploads/TW-Full-2.jpg
+    layout: full
+  - image: /assets/uploads/TW-Left-3.jpg
+    layout: left
+  - image: /assets/uploads/TW-Right-3.jpg
+    layout: right
+  - image: /assets/uploads/TW-Left-4.jpg
+    layout: left
+  - image: /assets/uploads/TW-Right-4.jpg
+    layout: right
+  - image: /assets/uploads/TW-Full-3.jpg
+    layout: full
 tags: work
 ---
 
