@@ -18,11 +18,11 @@ $blue: #006264;
 
     --h1-font-size: 4.2rem;
 
-    --h2-font-size: 3.5rem;
+    --h2-font-size: 2.5rem;
 
-    --h3-font-size: 2.5rem;
+    --h3-font-size: 1.75rem;
 
-    --h4-font-size: 1.75rem;
+    --h4-font-size: 1.5rem;
 
     --h5-font-size: 1.5rem;
 
@@ -89,5 +89,15 @@ $blue: #006264;
         --alt-link: #{$green};
 
         --alt-link-hover: #{$pink};
+    }
+}
+
+@media screen and (min-width: 48rem) {
+    :root {
+        --h2-font-size: 3.5rem;
+
+        --h3-font-size: 2.5rem;
+
+        --h4-font-size: 1.75rem;
     }
 }
