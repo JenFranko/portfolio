@@ -24,7 +24,7 @@
         {% set imgLayout = "jf-sample-container jf-sample-full" %}
         {% set imgClass = "jf-work-detail jf-image-full" %}
         {% if section.layout !== "full" -%}
-            {% set imgLayout = "jf-sample-container jf-sample-split" %}
+            {% set imgLayout = "jf-sample-container jf-sample-split jf-sample-split-" + section.layout %}
             {% set imgClass = "jf-work-detail jf-image-split" %}
         {% endif %}
 

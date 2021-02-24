@@ -31,7 +31,7 @@
     margin-top: 2rem;
     padding-top: 2rem;
 
-    &:first-child {
+    &:first-child:not(.jf-sample-split) {
         border: none;
         margin-top: 0;
         padding-top: 0;
@@ -120,9 +120,13 @@
         justify-content: space-between;
         vertical-align: top;
         width: 47.5%;
+    }
 
-        &:nth-child(odd) {
-            margin-left: 4.58%;
-        }
+    .jf-sample-split-left {
+        margin-left: 0;
+    }
+
+    .jf-sample-split-right {
+        margin-left: 4.58%;
     }
 }
