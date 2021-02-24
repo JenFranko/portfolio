@@ -1,0 +1,73 @@
+.jf-work-header {
+    align-items: stretch;
+    background-color: var(--highlight);
+    color: var(--highlight-text);
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    min-height: 5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 50;
+}
+
+.jf-work-title {
+    align-self: center;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin: 0.75rem 1rem;
+    padding: 0 0 0 5rem;
+    width: 100%;
+}
+
+.jf-work-back {
+    border-right: 1px solid $dark-green;
+    color: var(--highlight-text);
+    display: inline-block;
+    flex-basis: auto;
+    flex-grow: 1;
+    height: 5rem;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 5rem;
+    z-index: 100;
+}
+
+.jf-work-download {
+    border-left: 1px solid $dark-green;
+    color: var(--highlight-text);
+    display: inline-block;
+    flex-basis: auto;
+    flex-grow: 1;
+    margin: 0;
+    text-align: center;
+    width: 5rem;
+}
+
+.jf-header-link {
+    background-color: rgba($dark-green, 0.2);
+    color: var(--highlight-text);
+    display: block;
+    height: 100%;
+    position: relative;
+    transition: 0.3s ease background-color, 0.3s ease color;
+    width: 5rem;
+
+    &:hover,
+    &:focus {
+        background-color: rgba($dark-green, 1);
+        color: $off-white;
+    }
+}
+
+.jf-link-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

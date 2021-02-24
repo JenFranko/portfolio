@@ -84,6 +84,7 @@ li {
 
 a {
     color: var(--link);
+    cursor: pointer;
     text-decoration: underline;
 
     &:hover,
@@ -248,6 +249,33 @@ img {
     text-align: center;
 }
 
+.jf-work-page {
+    padding-top: 7.5rem;
+    position: relative;
+    z-index: 50;
+
+    h2 {
+        font-size: var(--h4-font-size);
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-size: var(--h5-font-size);
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-size: var(--h6-font-size);
+        text-transform: uppercase;
+    }
+
+    h5,
+    h6 {
+        font-size: var(--body-font-size);
+        text-transform: uppercase;
+    }
+}
+
 @media screen and (min-width: 40.5rem) {
     .jf-flex {
         align-items: flex-start;
@@ -304,5 +332,6 @@ img {
 @import '../components/about/about';
 @import '../components/greeting/greeting';
 @import '../components/resume/resume';
+@import '../components/work/content';
+@import '../components/work/header';
 @import '../components/workSection/workSection';
-@import '../pages/work/workPage';

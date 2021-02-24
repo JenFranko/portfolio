@@ -1,0 +1,68 @@
+{% macro workContent(content, previousPost, nextPost) %}
+{% if content.hero -%}
+    <div class="jf-work-hero-container">
+        <img src="{{ content.hero }}" class="jf-image-hero" alt="" aria-describedby="work-description" />
+
+        {% if content.description -%}
+            <div class="jf-work-hero-description jf-work-project-description" id="work-description">
+                {{ content.description | markdown | safe }}
+            </div>
+        {% else %}
+            <p class="jf-work-description jf-accessible-text" id="work-description">
+                I am so sorry... I didn't write a description of my work
+            </p>
+        {%- endif %}
+    {% elif content.description %}
+        <div class="jf-work-project-description">
+            {{ content.description | markdown | safe }}
+        </div>
+    </div>
+{%- endif %}
+
+<div class="jf-work-content">
+    {% for section in content.images %}
+        {% set imgLayout = "jf-sample-container jf-sample-full" %}
+        {% set imgClass = "jf-work-detail jf-image-full" %}
+        {% if section.layout !== "full" -%}
+            {% set imgLayout = "jf-sample-container jf-sample-split" %}
+            {% set imgClass = "jf-work-detail jf-image-split" %}
+        {% endif %}
+
+        <div class="{{ imgLayout }}">
+          {% set descId = "jf-work-" + loop.index %}
+          <img src="{{ section.image }}" alt="" class="{{ imgClass }}" aria-describedby="{{ descId }}" />
+
+          {% if section.description -%}
+              <div class="jf-work-description" id="{{ descId }}">
+                  {{ section.description | markdown | safe }}
+              </div>
+          {% else %}
+              <p class="jf-work-description jf-accessible-text" id="{{ descId }}">
+                  I am so sorry... I didn't write a description of my work
+              </p>
+          {%- endif %}
+        </div>
+    {% endfor %}
+
+    <div class="jf-work-nav">
+        <p class="jf-work-nav-item jf-work-prev">
+            {% if previousPost -%}
+            <img src="{{ previousPost.data.link }}" class="jf-work-nav-img" alt="" />
+
+            <a href="/work/{{ previousPost.data.title | slug }}" class="jf-work-nav-link" aria-label="Previous Work Sample: {{ previousPost.data.title }}">
+                {{ previousPost.data.title }}
+            </a>
+            {%- endif %}
+        </p>
+        <p class="jf-work-nav-item jf-work-next">
+            {% if nextPost -%}
+            <a href="/work/{{ nextPost.data.title | slug }}" class="jf-work-nav-link" aria-label="Next Work Sample: {{ nextPost.data.title }}">
+                {{ nextPost.data.title }}
+            </a>
+
+            <img src="{{ nextPost.data.link }}" class="jf-work-nav-img" alt="" />
+            {%- endif %}
+        </p>
+    </div>
+</div>
+{% endmacro %}
