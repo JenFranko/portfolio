@@ -2,7 +2,7 @@
     background-color: var(--alt-body-bg);
     color: var(--alt-body-text);
     display: block;
-    min-height: 60vh;
+    min-height: 75vh;
     padding: 1.5rem 1rem;
     position: relative;
     width: 100%;
@@ -23,6 +23,7 @@
     max-width: 37.5rem;
     position: absolute;
     text-align: center;
+    text-transform: uppercase;
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
