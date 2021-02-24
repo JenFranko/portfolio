@@ -14,6 +14,8 @@ module.exports = (eleventyConfig) => {
         return markdown.render(content);
     });
 
+    eleventyConfig.addShortcode('currentYear', () => `${new Date().getFullYear()}`);
+
     customFilters.map((filter) => eleventyConfig.addFilter(`${filter.name}`, filter));
 
     return {

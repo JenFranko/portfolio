@@ -13,13 +13,15 @@ permalink: "/"
 {% from "components/greeting/greeting.njk" import greeting as greeting %}
 {% from "components/resume/resume.njk" import resumeContent as resumeContent %}
 {% from "components/workSection/workSection.njk" import workSection as workSection %}
+{% from "components/footer/footer.njk" import footer as footer %}
 
 {% block content %}
+    {% set social = collections.info[0].data.social %}
     {% if home.data.greeting -%}
         {{ greeting(
             home.data.greeting,
             [home.data.greeting_bg[0]],
-            collections.info[0].data.social
+            social
         ) }}
     {%- endif %}
 
@@ -48,4 +50,10 @@ permalink: "/"
         workFile,
         workDownloadText
     ) }}
+
+    {% set footerText = "Jen Dudek Design" %}
+    {% if collections.info[0].data.footer_text %}
+        {% set footerText = collections.info[0].data.footer_text %}
+    {% endif %}
+    {{ footer(footerText, social) }}
 {% endblock %}

@@ -281,8 +281,8 @@ img {
         align-items: flex-start;
         display: flex;
         justify-content: center;
-        padding-bottom: 6rem;
-        padding-top: 4rem;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
     }
 
     .jf-flex-header {
@@ -294,10 +294,22 @@ img {
 
     .jf-flex-content {
         border-left: 5px solid var(--highlight);
-        margin: -4rem 0 -6rem;
+        margin: 0;
         max-width: 31.25rem;
-        padding: 4rem 0 6rem 2rem;
+        padding: 0 0 0 2rem;
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 52.5rem) {
+    .jf-flex {
+        padding-bottom: 6rem;
+        padding-top: 4rem;
+    }
+
+    .jf-flex-content {
+        margin: -4rem 0 -6rem;
+        padding: 4rem 0 6rem 2rem;
     }
 }
 
@@ -330,6 +342,7 @@ img {
 }
 
 @import '../components/about/about';
+@import '../components/footer/footer';
 @import '../components/greeting/greeting';
 @import '../components/resume/resume';
 @import '../components/work/content';

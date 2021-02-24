@@ -1,0 +1,23 @@
+{% macro footer(text, social) %}
+<footer class="jf-footer">
+    <div class="jf-footer-content">
+        <p class="jf-footer-title">{{ text }} &copy; {% currentYear %}</p>
+
+        {% if social -%}
+        <ul class="jf-social-list jf-footer-social">
+            {% for platform in social -%}
+            {% set faClass = "fa" %}
+            {% if platform.brand %}
+                {% set faClass = "fab" %}
+            {% endif %}
+            <li class="jf-social-item jf-footer-social-item">
+                <a href="{{ platform.url }}" class="jf-social-link jf-footer-social-link" aria-label="{{ platform.text }}" target="_blank" rel="noopener noreferrer">
+                    <i class="{{ faClass }} {{ platform.image }} jf-social-icon" aria-hidden="true"></i>
+                </a>
+            </li>
+            {%- endfor %}
+        </ul>
+        {%- endif %}
+    </div>
+</footer>
+{% endmacro %}
