@@ -2,7 +2,7 @@
     background-color: var(--alt-body-bg);
     color: var(--alt-body-text);
     display: block;
-    min-height: 100vh;
+    min-height: 60vh;
     padding: 1.5rem 1rem;
     position: relative;
     width: 100%;
@@ -29,12 +29,14 @@
     z-index: 10;
 
     h1 {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
 
     .jf-name {
         display: block;
-        font-size: 4rem;
+        font-size: 2.25rem;
+        line-height: 2.5rem;
         text-transform: uppercase;
     }
 
@@ -48,5 +50,28 @@
             color: var(--alt-highlight);
             font-size: 2.25rem;
         }
+    }
+}
+
+@media screen and (min-width: 48rem) {
+    .jf-greeting {
+        min-height: 75vh;
+    }
+
+    .jf-greeting-content {
+        h1 {
+            font-size: 1.75rem;
+        }
+
+        .jf-name {
+            font-size: 4rem;
+            line-height: 4.2rem;
+        }
+    }
+}
+
+@media screen and (min-width: 52.5rem) {
+    .jf-greeting {
+        min-height: calc(100vh - 5px);
     }
 }
