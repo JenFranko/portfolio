@@ -10,6 +10,7 @@ permalink: "/resume/"
 
 {% extends "layouts/main.njk" %}
 {% from "components/resume/resume.njk" import resumeContent as resumeContent %}
+{% from "components/footer/footer.njk" import footer as footer %}
 
 {% block content %}
     {% set downloadText = collections.info[0].data.download %}
@@ -17,4 +18,11 @@ permalink: "/resume/"
         resume.data,
         downloadText
     ) }}
+
+    {% set footerText = "Jen Dudek Design" %}
+    {% set social = collections.info[0].data.social %}
+    {% if collections.info[0].data.footer_text %}
+        {% set footerText = collections.info[0].data.footer_text %}
+    {% endif %}
+    {{ footer(footerText, social) }}
 {% endblock %}
