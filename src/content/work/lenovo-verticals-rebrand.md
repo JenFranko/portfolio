@@ -17,8 +17,14 @@ images:
   - image: /assets/uploads/Group Full-1.jpg
     layout: full
   - image: /assets/uploads/RM-Left-1.jpg
-    layout: full
+    layout: left
   - image: /assets/uploads/RM-Right-1.jpg
+    layout: right
+  - image: /assets/uploads/RM-Left-2.jpg
+    layout: left
+  - image: /assets/uploads/RM-Right-2.jpg
+    layout: right
+  - image: /assets/uploads/RM-Full-2.jpg
     layout: full
 tags: work
 ---
