@@ -11,7 +11,7 @@ description: >-
 
   Art Director and designer on the agency team responsible for creative
   execution. Worked closely with agency Creative Director and Lenovo's Director
-  of Global branding to assure brand consistency and alignment.
+  of Global branding to assure brand consistency.
 link: /assets/uploads/Lenovo-Verticals-Rebrand-300x300.jpg
 images:
   - image: /assets/uploads/Group Full-1.jpg
