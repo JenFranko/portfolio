@@ -5,7 +5,7 @@ description: >-
   ## Project Overview
 
 
-  NOW/NEXT is built for speed, features changing exhibits fueled by pop culture
+  NOW/NEXT is built for speed, features-changing exhibits fueled by pop culture
   and emerging trends in science and technology. Designed with modular
   components are used to maintain a responsive, flexible space that invites
   visitors into the dynamic pace of innovation. The hardware, cabling, and
@@ -22,17 +22,17 @@ description: >-
   ([ReMade](http://weareremade.com/)) to build animated features.
 link: /assets/uploads/Now-Next-300x300-1-1024x1024.jpg
 images:
-  - description: Now/Next Media Style and Brand Guideline
-    image: /assets/uploads/Now-Next-1000x650-1-scaled.jpg
+  - description: Now/Next Gallery
+    image: /assets/uploads/NN-Full-1.jpg
     layout: full
-  - description: Now/Next Gallery
-    image: /assets/uploads/Now-Next-1000x650-2-scaled.jpg
+  - description: Visitors interacting with exhibit elements.
+    image: /assets/uploads/NN-Left-1.jpg
     layout: left
-  - description: Now/Next Gallery
-    image: /assets/uploads/Now-Next-1000x650-3-scaled.jpg
+  - description: Visitors interacting with exhibit elements.
+    image: /assets/uploads/NN-Right-1.jpg
     layout: right
-  - description: Visitors interacting with exhibit content.
-    image: /assets/uploads/Now-Next-1000x650-4-scaled.jpg
+  - description: Visitors interacting with exhibit elements.
+    image: /assets/uploads/NN-Full-2.jpg
     layout: full
 tags: work
 ---
