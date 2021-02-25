@@ -43,6 +43,12 @@ images:
   - description: Now/Next Gallery
     image: /assets/uploads/NN-Full-3.jpg
     layout: full
+  - description: >-
+      Didactic panel (left), still from the animation/interactive (top right),
+      guests using interactive (bottom right). Visitors swipe RFID pukes to
+      activate animated content based on different battery types.
+    image: /assets/uploads/NN-Full-4.jpg
+    layout: full
 tags: work
 ---
 
