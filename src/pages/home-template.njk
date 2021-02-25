@@ -55,5 +55,5 @@ permalink: "/"
     {% if collections.info[0].data.footer_text %}
         {% set footerText = collections.info[0].data.footer_text %}
     {% endif %}
-    {{ footer(footerText, social) }}
+    {{ footer(footerText, social, 'home') }}
 {% endblock %}

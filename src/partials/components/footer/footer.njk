@@ -1,7 +1,12 @@
-{% macro footer(text, social) %}
+{% macro footer(text, social, page) %}
 <footer class="jf-footer">
     <div class="jf-footer-content">
+        {% if page !== 'home' %}
+        <p class="jf-footer-title">
+            <a href="/" class="jf-footer-link">{{ text }}</a> &copy; {% currentYear %}</p>
+        {% else %}
         <p class="jf-footer-title">{{ text }} &copy; {% currentYear %}</p>
+        {% endif %}
 
         {% if social -%}
         <ul class="jf-social-list jf-footer-social">

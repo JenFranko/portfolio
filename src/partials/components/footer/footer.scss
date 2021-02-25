@@ -28,6 +28,15 @@
     width: 100%;
 }
 
+.jf-footer-link {
+    color: inherit;
+
+    &:hover,
+    &:focus {
+        color: var(--link-hover);
+    }
+}
+
 .jf-footer-social {
     display: flex;
     flex-grow: 0;
