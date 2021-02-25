@@ -18,8 +18,8 @@ description: >-
   conceptualize the content strategy. From there, I developed the design
   strategy and produced all exhibit graphics, as well as marketing and brand
   materials. In order to make engaging, and easy-to-understand interpretative
-  interactives and videos, I worked with local animators (ReMade) to build
-  animated features.
+  interactives and videos, I worked with local animators
+  ([ReMade](http://weareremade.com/)) to build animated features.
 link: /assets/uploads/Now-Next-300x300-1-1024x1024.jpg
 images:
   - description: Now/Next Media Style and Brand Guideline
@@ -36,3 +36,4 @@ images:
     layout: full
 tags: work
 ---
+
