@@ -12,10 +12,10 @@
                 I am so sorry... I didn't write a description of my work
             </p>
         {%- endif %}
-    {% elif content.description %}
-        <div class="jf-work-project-description">
-            {{ content.description | markdown | safe }}
-        </div>
+    </div>
+{% elif content.description %}
+    <div class="jf-work-project-description">
+        {{ content.description | markdown | safe }}
     </div>
 {%- endif %}
 
