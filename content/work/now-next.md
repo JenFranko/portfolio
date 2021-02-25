@@ -34,6 +34,15 @@ images:
   - description: Visitors interacting with exhibit elements.
     image: /assets/uploads/NN-Full-2.jpg
     layout: full
+  - description: Now/Next Media Guide
+    image: /assets/uploads/NN-Left-2.jpg
+    layout: left
+  - description: Now/Next Logo Development and Design
+    image: /assets/uploads/NN-Right-2.jpg
+    layout: right
+  - description: Now/Next Gallery
+    image: /assets/uploads/NN-Full-3.jpg
+    layout: full
 tags: work
 ---
 
