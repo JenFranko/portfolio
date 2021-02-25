@@ -11,12 +11,12 @@ description: >-
   current innovations via new product announcements.
 
 
-  Art Director and designer on the agency team responsbile for contributing and
+  Art Director and designer on the agency team responsible for contributing and
   creating impactful experiential and brand activation, environmental and
   structural applied art, pre-event comms, evening event branding, concept/theme
-  development, project management and organization. Worked closely with agnecy
+  development, project management and organization. Worked closely with agency
   Creative Director and Lenovo's Director of Global branding to assure brand
-  consistancy and alignment.
+  consistency and alignment.
 link: /assets/uploads/TechWorld-300x300.jpg
 images:
   - image: /assets/uploads/TW-Full-1.jpg
