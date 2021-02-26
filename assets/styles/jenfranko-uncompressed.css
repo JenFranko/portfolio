@@ -5250,7 +5250,7 @@ img {
 .jf-work-back {
   border-bottom: 1px solid #707300;
   border-right: 1px solid #707300;
-  color: var(--highlight-text);
+  color: var(--body-text);
   display: inline-block;
   flex-basis: auto;
   flex-grow: 1;
