@@ -5136,6 +5136,7 @@ img {
   width: 100%; }
 
 .jf-work-content {
+  font-size: 0;
   margin: 0 auto;
   max-width: 92rem;
   padding: 2.5rem 1rem 1rem 5rem;
@@ -5143,6 +5144,7 @@ img {
 
 .jf-sample-container {
   border-top: 1px solid var(--highlight);
+  font-size: 1rem;
   margin-top: 2rem;
   padding-top: 2rem; }
   .jf-sample-container:first-child:not(.jf-sample-split) {
@@ -5214,8 +5216,6 @@ img {
     padding-right: 5rem; }
   .jf-sample-split {
     display: inline-block;
-    font-size: 0;
-    justify-content: space-between;
     vertical-align: top;
     width: 47.5%; }
   .jf-sample-split-left {
