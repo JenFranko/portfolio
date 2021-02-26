@@ -20,9 +20,6 @@ jobs:
       - name: Build
         uses: TartanLlama/actions-eleventy@master
 
-      - name: Copy CNAME file
-        run: npm run build
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
