@@ -15,6 +15,19 @@ description: >-
   implemented and translated new brand guidelines to the physical space,
   highlighting new products and features for Lenovo.
 link: /assets/uploads/VWWorld-1000x650-4-205x205.jpg
+images:
+  - image: /assets/uploads/VMWorld-Full-1.jpg
+    layout: full
+  - image: /assets/uploads/VMWorld-Left-1.jpg
+    layout: left
+  - image: /assets/uploads/VMWorld-Right-1.jpg
+    layout: right
+  - image: /assets/uploads/VMWorld-Full-2.jpg
+    layout: full
+  - image: /assets/uploads/VMWorld-Left-2.jpg
+    layout: left
+  - image: /assets/uploads/VMWorld-Right-2.jpg
+    layout: right
 tags: work
 ---
 
