@@ -2,6 +2,8 @@ const MarkdownIt = require('markdown-it');
 const customFilters = require('./filters.js');
 
 module.exports = (eleventyConfig) => {
+    eleventyConfig.addPassthroughCopy('CNAME');
+    
     eleventyConfig.addPassthroughCopy('src/assets');
 
     eleventyConfig.addPassthroughCopy('src/upload');
