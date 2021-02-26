@@ -15,7 +15,8 @@ images:
     layout: right
   - image: /assets/uploads/Space-After-Full-2.jpg
     layout: full
-  - image: /assets/uploads/Space-Before-Full-1.jpg
+  - description: Before
+    image: /assets/uploads/Space-Before-Full-1.jpg
     layout: full
 tags: work
 ---
