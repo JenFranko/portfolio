@@ -41,15 +41,32 @@ jobs:
   - company: The Franklin Institute
     date: 2016-2019
     description: >-
-      Directed and mentored the design department that was responsible for the
-      design and implementation of all museum-wide print and advertising
-      collateral, exhibit, and museum signage, and digital materials. Assured
-      timely delivery of projects that were on budget and on brand.
-      Additionally, cultivated a strong relationship with our internal clients
-      to produce final products that supported the institution's goals and
-      exceeded expectations.
+      Directed design team in designing and implementing print and web
+      advertising collateral, exhibit and museum signage, and digital
+      materials. 
+
+
+      * Guided various department leads in executing design requests through the
+      planning, design, and development lifecycle, ensuring projects are
+      delivered with the proper specifications and on-time, on-brand, and within
+      budget. 
+
+      * Built strong relationships with internal clients; garnered feedback
+      throughout design and production process to ensure the final product
+      exceeded expectations. 
+
+      * Partnered with marketing and exhibition managers upfront to drive design
+      thinking and visitor experience from project initiation and
+      conceptualization to implementation and installation.
+
+      * Improved organizational productivity by reconfiguring the design request
+      form to add missing information and digitize the format, which enabled a
+      more efficient workflow and tracking of requests. 
+
+      * Coordinated with vendors on paper, print, and asset sourcing that met
+      design, business, and budget guidelines.
     icon: fa-university
-    title: Graphic Design Manager (Art Director)
+    title: Graphic Design Manager & Art Director
   - company: Freelance Work
     date: 2007 - Present
     description: >-
