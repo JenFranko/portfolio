@@ -1,7 +1,9 @@
 ---
 name: Home Page
 greeting: >-
-  # Hello, my name is <span class="jf-name">Jennifer Dudek<span class="jf-accessible-text">.</span></span> I'm a visual designer<span class="jf-accessible-text">.</span>
+  # Hello, my name is <span class="jf-name">Jennifer Dudek<span
+  class="jf-accessible-text">.</span></span> I'm an Art Director and Visual
+  Designer<span class="jf-accessible-text">.</span>
 greeting_bg:
   - image: /assets/uploads/kelpius.jpg
   - image: /assets/uploads/nox.jpg
@@ -54,3 +56,4 @@ attributes:
     percent: 100
 tags: home
 ---
+
