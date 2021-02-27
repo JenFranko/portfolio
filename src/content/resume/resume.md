@@ -67,6 +67,25 @@ jobs:
       design, business, and budget guidelines.
     icon: fa-university
     title: Graphic Design Manager & Art Director
+  - company: Event Strategy Group
+    date: 2013-2016
+    description: >-
+      Design and production of creative elements to support brand activation in
+      live experiential settings, including events, exhibitions, and trade
+      shows. 
+
+
+      * Aligned design to client objectives; articulated the brand story,
+      mission, value proposition, and brand guidelines.
+
+      * Created experiential elements for Lenovo at key trade shows and events;
+      infused new brand across all touch-points and channels, including booth
+      design, digital advertising, sales, and promotional collateral.
+
+      * Partnered with business leaders to deliver design and prototype options
+      informed by insights and research.
+    icon: fa-users
+    title: Art Director
   - company: Freelance Work
     date: 2007 - Present
     description: >-
@@ -124,16 +143,6 @@ jobs:
       * The Creative Group - Washington, DC and Philadelphia, PA
     icon: fa-lightbulb
     title: Graphic and Multimedia Designer/Art Director
-  - company: Event Strategy Group
-    date: 2013-2016
-    description: >-
-      Art directed brand creation, development, and activation for several
-      clients across various channels. Partnered with clients to expand,
-      explore, and activate their brand into a live experiential branding.
-      Adhered to the brand story, mission, vision, value proposition, and brand
-      guidelines.
-    icon: fa-users
-    title: Art Director
   - company: Phillips Feed & Pet Supplies
     date: 2011 - 2013
     description: >-
