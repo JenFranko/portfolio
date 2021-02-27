@@ -137,7 +137,6 @@ jobs:
   - company: Skills
     description: |-
       ###### CORE COMPETENCIES 
-
       * Art and creative direction
       * Creative Leadership
       * Customer experience design
@@ -163,10 +162,9 @@ jobs:
       * Strong organizational skills
       * Lover of the outdoors
 
+
       ###### TECHNICAL PROFICIENCIES  
-
       Proficient on both Mac and PC platforms 
-
       * Adobe Creative Suite
       * Photoshop 
       * InDesign 
