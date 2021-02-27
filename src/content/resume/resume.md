@@ -4,7 +4,7 @@ file: /assets/uploads/Jen-Dudek-Resume.pdf
 tags: resume
 jobs:
   - company: 'Lead Experiential Graphic Designer '
-    date: 2019-Present
+    date: 2019 – Present
     description: >-
       Promoted to lead experiential branding and graphic design for the museum,
       including long-term and traveling exhibitions, in-building marketing,
@@ -39,7 +39,7 @@ jobs:
     icon: fa-university
     title: The Franklin Institute
   - company: Graphic Design Manager & Art Director
-    date: 2016-2019
+    date: 2016 – 2019
     description: >-
       Directed design team in designing and implementing print and web
       advertising collateral, exhibit and museum signage, and digital
@@ -68,7 +68,7 @@ jobs:
     icon: fa-university
     title: The Franklin Institute
   - company: 'Art Director '
-    date: 2013-2016
+    date: 2013 – 2016
     description: >-
       Design and production of creative elements to support brand activation in
       live experiential settings, including events, exhibitions, and trade
@@ -87,7 +87,7 @@ jobs:
     icon: fa-users
     title: Event Strategy Group
   - company: Lead Graphic Designer and Marketing
-    date: 2011-2013
+    date: 2011 – 2013
     description: >-
       Led graphic design and production of creative marketing materials; managed
       the design team, project workflow, and content management systems. 
@@ -108,12 +108,12 @@ jobs:
     icon: fa-truck
     title: Phillips Feed & Pet Supplies
   - company: 'Graphic, Multi-Media Designer & Art Director'
-    date: 2007-Present
+    date: 2007 – Present
     description: "Create multi-media design projects and campaigns across formats and channels for clients in a broad spectrum of industries, including technology, financial services, higher education, \nnon-profit, retail, medical, and health and fitness. \rProjects include annual reports, website design & wireframes, digital and social media communications, print, email design, branding, and apparel graphics. \n\n* Bright Path Brewing, Jim Thorpe, PA\n* Lone Eagle Brewing, Flemington, NJ\n* Penn Medicine, University of Pennsylvania Health System, Philadelphia, PA\n* Sungard Availability Services, Wayne, PA\n* Creative Circle\n* Synergy Medical Education, Conshohocken, PA\n* Kelpius Cycling Team, Philadelphia, PA\n* Event Strategy Group, Plymouth Meeting, PA\n* M2, Philadelphia, PA\n* 360JMG, Washington, DC\n* IWS, Alexandria, VA\n* In The Crosshairs, Washington, DC\n* Just Riding Along Bicycle Shop (JRABS), Laytonsville, MD\n* Case Design/Remodeling, Inc., Bethesda, MD\n* Christian Service Charities, Annandale, VA\n* Eastern Research Group, Arlington, VA\n* Home Front Communications, Washington, DC\n* Jon Wye, Washington, DC\n* KindHuman Sports, Advance, NC\n* OmniStudio, Inc., Washington, DC\n* Lorél Marketing Group, Valley Forge, PA\n* MABRACross.org, Washington, DC\n* MedErgy HealthGroup, Inc., Yardley, PA\n* Rio Brands, Philadelphia, PA\n* University for Peace, Washington, DC\n* United States Postal Service, Washington, DC\n* The Creative Group - Washington, DC and Philadelphia, PA"
     icon: fa-lightbulb
     title: Freelance Work
   - company: Graphic Designer
-    date: 2007-2008
+    date: 2007 – 2008
     description: >-
       Lead designer charged with creating print materials, digital assets, and
       signage for trade shows. Partnered with project managers across the
@@ -121,7 +121,7 @@ jobs:
     icon: fa-leaf
     title: U.S. Green Building Council
   - company: Designer/Project Manager
-    date: 2006-2007
+    date: 2006 – 2007
     description: >-
       Designed in-house and trade show graphics, working with clients from
       concept to implementation.
