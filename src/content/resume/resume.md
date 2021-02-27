@@ -136,7 +136,8 @@ jobs:
     title: The Media and Marketing Group
   - company: Skills
     description: |-
-      ###### CORE COMPETENCIES 
+      #### CORE COMPETENCIES
+
       * Art and creative direction
       * Creative Leadership
       * Customer experience design
@@ -162,9 +163,10 @@ jobs:
       * Strong organizational skills
       * Lover of the outdoors
 
+      #### TECHNICAL PROFICIENCIES
 
-      ###### TECHNICAL PROFICIENCIES  
       Proficient on both Mac and PC platforms 
+
       * Adobe Creative Suite
       * Photoshop 
       * InDesign 
