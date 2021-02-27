@@ -1,7 +1,9 @@
 .jf-greeting {
+    align-items: center;
     background-color: var(--alt-body-bg);
     color: var(--alt-body-text);
-    display: block;
+    display: flex;
+    justify-content: space-between;
     min-height: 75vh;
     padding: 1.5rem 1rem;
     position: relative;
@@ -19,19 +21,14 @@
 }
 
 .jf-greeting-content {
-    left: 50%;
-    max-width: 37.5rem;
-    position: absolute;
-    text-align: center;
-    text-transform: uppercase;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
+    margin: 0 auto;
+    padding: 0;
     z-index: 10;
 
     h1 {
         font-size: 1.5rem;
         line-height: 2rem;
+        text-align: center;
     }
 
     .jf-name {
@@ -39,6 +36,10 @@
         font-size: 2.25rem;
         line-height: 2.5rem;
         text-transform: uppercase;
+    }
+
+    .jf-social-list {
+        text-align: center;
     }
 
     .jf-social-link {

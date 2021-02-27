@@ -31,7 +31,10 @@
     border-top: 1px solid var(--highlight);
     font-size: 1rem;
     margin-top: 2rem;
+    overflow: hidden;
     padding-top: 2rem;
+    position: relative;
+    width: auto;
 
     &:first-child:not(.jf-sample-split) {
         border: none;
@@ -43,7 +46,6 @@
 .jf-sample-full {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     position: relative;
 }
 
@@ -82,16 +84,8 @@
     flex-direction: row;
     justify-content: space-between;
     max-width: 26rem;
+    position: relative;
     width: 100%;
-}
-
-.jf-work-nav-link {
-    display: block;
-    width: 100%;
-}
-
-.jf-work-next {
-    text-align: right;
 }
 
 .jf-work-nav-img {
@@ -99,6 +93,31 @@
     display: block;
     margin: 0 1rem;
     width: 5rem;
+}
+
+.jf-work-nav-link {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    left: 0;
+    padding-left: 7rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.jf-work-next {
+    text-align: right;
+
+    .jf-work-nav-link {
+        padding-left: 0;
+        padding-right: 7rem;
+    }
+
+    .jf-work-nav-img {
+        margin-left: auto;
+    }
 }
 
 @media screen and (min-width: 40rem) {
@@ -110,6 +129,10 @@
 @media screen and (min-width: 60rem) {
     .jf-work-project-description {
         padding-right: 5rem;
+    }
+
+    .jf-sample-full {
+        min-height: 100vh;
     }
 
     .jf-work-content {
