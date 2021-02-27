@@ -136,14 +136,13 @@ jobs:
     title: Design Technician
   - company: Skills
     description: |-
-
-
       Proficient on both Mac and PC platforms
 
       * Art and creative direction
+      * Creative Leadership
       * Customer experience design
-      * User centered design
-      * Experiential graphic design
+      * User-centered design
+      * Experiential design
       * Marketing communications
       * Corporate branding
       * Brand management
@@ -152,11 +151,13 @@ jobs:
       * Understand HTML and CSS principles
       * Familiarity with Chrome developer tools
       * Familiarity with Twitter Bootstrap
-      * Website design
+      * Web design
+      * UX Design & UI Design
       * Large format printing
       * Print production
       * Team management
       * Project management
+      * Process Improvement
       * Detail-oriented
       * Multitasker extraordinaire
       * Strong organizational skills
