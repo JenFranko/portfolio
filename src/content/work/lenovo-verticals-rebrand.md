@@ -14,17 +14,23 @@ description: >-
   of Global branding to assure brand consistency.
 link: /assets/uploads/Lenovo-Verticals-Rebrand-300x300.jpg
 images:
-  - image: /assets/uploads/Group Full-1.jpg
+  - description: Family of digital templates
+    image: /assets/uploads/Group Full-1.jpg
     layout: full
-  - image: /assets/uploads/RM-Left-1.jpg
+  - description: Brand standards and guidelines
+    image: /assets/uploads/RM-Left-1.jpg
     layout: left
-  - image: /assets/uploads/RM-Right-1.jpg
+  - description: Digital ads
+    image: /assets/uploads/RM-Right-1.jpg
     layout: right
-  - image: /assets/uploads/RM-Left-2.jpg
+  - description: White paper template design
+    image: /assets/uploads/RM-Left-2.jpg
     layout: left
-  - image: /assets/uploads/RM-Right-2.jpg
+  - description: Case study template design
+    image: /assets/uploads/RM-Right-2.jpg
     layout: right
-  - image: /assets/uploads/RM-Full-2.jpg
+  - description: E-book template design
+    image: /assets/uploads/RM-Full-2.jpg
     layout: full
 tags: work
 ---
