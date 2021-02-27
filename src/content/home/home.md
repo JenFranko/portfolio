@@ -16,7 +16,7 @@ about:
       ### Hi, I'm Jen!
 
 
-      I’m a highly collaborative visual designer, art director, multitasker
+      I’m a highly collaborative art director, visual designer, multitasker
       extraordinaire, and a pretty badass weekend warrior mountain biker.
 
 
@@ -28,24 +28,28 @@ about:
       the solution for every client and create remarkable customer experiences.
 
 
-      I am currently working as the Lead Senior Experiential Graphic Designer at
-      The Franklin Institute.
+      I am currently working as the Lead Experiential Graphic Designer at The
+      Franklin Institute. In this role, I direct the experiential branding and
+      graphic design for the museum, including long-term and traveling
+      exhibitions, in-building marketing, wayfinding experience, exhibition
+      environmental graphics, and digital signage. 
 
 
-      My key areas of experience include Art Direction and Senior-Level Design.
-      I have expertise in print and digital formats for experiential and
-      environmental design, branding, brand management, project and team
-      management, and design direction. I have also been known to put together a
-      mean excel spreadsheet every once in a while, and I can ride a bike pretty
-      well. If I’m not sure how to do something, I’ll find a way to make it
-      happen.
+      During my work experience, I’ve built my expertise art directing print and
+      digital campaigns across experiential and environmental design, branding,
+      and brand management while leading and mentoring design teams working in
+      agency and corporate positions. I have also been known to put together a
+      mean excel spreadsheet every once in a while and recharge with some coffee
+      and a jigsaw puzzle on the weekend. If I’m not sure how to do something,
+      I’ll find a way to make it happen.
 
 
       It sounds cheesy, but I love what I do every day and love working with
-      clients who are as passionate about their business as I am about design. I
-      design because I love doing it. I thrive on building lasting relationships
-      while producing quality work for aspiring, open-minded clients who
-      understand and value the creative journey and process.
+      people who are as passionate about their business as I am about design. I
+      design because I love doing it. I thrive on building and fostering lasting
+      relationships while producing quality work for aspiring, open-minded
+      people who understand and value the creative journey and process to
+      further business-driven goals.
     title: About Me
 attributes:
   - name: Mountain Biker
