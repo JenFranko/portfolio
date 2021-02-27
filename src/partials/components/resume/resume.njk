@@ -19,17 +19,15 @@
             {% if content.jobs.length -%}
                 <ul class="jf-jobs-list">
                     {% for job in content.jobs -%}
-                        {% set dates = '' %}
-                        {% if job.date %}
-                            {% set dates = ' (' + job.date + ')' %}
-                        {% endif %}
                         <li class="jf-job">
                             {% if job.icon -%}
                                 <i class="fas {{ job.icon }} jf-resume-icon" aria-hidden="true"></i>
                             {%- endif %}
-                            <h3 class="jf-job-company">{{ job.company }}{{ dates }}</h3>
+                            <h3 class="jf-job-company">{{ job.company }}</h3>
                             {% if job.title -%}
-                                <h4 class="jf-job-title">{{ job.title }}</h4>
+                                <h4 class="jf-job-title">{{ job.title }}{% if job.date -%}
+                                <span aria-hidden="true"> | </span><span class="jf-job-date">{{ job.date }}</span>
+                                {%- endif %}</h4>
                             {%- endif %}
                             {% if job.description -%}
                             {{ job.description | markdown | safe }}
