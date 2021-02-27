@@ -4855,6 +4855,10 @@ img {
   margin: 0 0 1rem;
   text-align: center; }
 
+.jf-no-bullet {
+  list-style: none;
+  margin-left: 0; }
+
 .jf-work-page {
   padding-top: 7.5rem;
   position: relative;
