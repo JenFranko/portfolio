@@ -50,14 +50,14 @@
             <img src="{{ previousPost.data.link }}" class="jf-work-nav-img" alt="" />
 
             <a href="/work/{{ previousPost.data.title | slug }}" class="jf-work-nav-link" aria-label="Previous Work Sample: {{ previousPost.data.title }}">
-                {{ previousPost.data.title }}
+                <span class="jf-link-text">{{ previousPost.data.title }}</span>
             </a>
             {%- endif %}
         </p>
         <p class="jf-work-nav-item jf-work-next">
             {% if nextPost -%}
             <a href="/work/{{ nextPost.data.title | slug }}" class="jf-work-nav-link" aria-label="Next Work Sample: {{ nextPost.data.title }}">
-                {{ nextPost.data.title }}
+                <span class="jf-link-text">{{ nextPost.data.title }}</span>
             </a>
 
             <img src="{{ nextPost.data.link }}" class="jf-work-nav-img" alt="" />

@@ -104,12 +104,20 @@
     width: 100%;
 }
 
-.jf-work-next {
-    text-align: right;
+.jf-link-text {
+    margin: 0 auto 0 0;
+}
 
+.jf-work-next {
     .jf-work-nav-link {
         padding-left: 0;
         padding-right: 7rem;
+    }
+
+    .jf-link-text {
+        margin-left: auto;
+        margin-right: 0;
+        text-align: right;
     }
 
     .jf-work-nav-img {
