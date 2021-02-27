@@ -5108,6 +5108,15 @@ img {
   line-height: 1.5rem;
   margin: 0 0 0.5rem; }
 
+.jf-resume-content h4,
+.jf-resume-content h5,
+.jf-resume-content h6 {
+  font-size: var(--h6-font-size);
+  margin-bottom: 0; }
+
+.jf-resume-content ul {
+  margin-bottom: 1rem; }
+
 @media screen and (min-width: 40.5rem) {
   .jf-job {
     padding-left: 1rem; }
