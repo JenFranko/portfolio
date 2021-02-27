@@ -137,6 +137,7 @@ jobs:
   - company: Skills
     description: |-
       <div class="jf-no-bullet">
+
       #### CORE COMPETENCIES
 
       * Art and creative direction
