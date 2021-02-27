@@ -134,12 +134,8 @@ jobs:
       various marketing communications, mediums, and platforms.
     icon: fa-users
     title: The Media and Marketing Group
-  - company: Skills
+  - company: Core Competencies
     description: |-
-      <div class="jf-no-bullet">
-
-      #### CORE COMPETENCIES
-
       * Art and creative direction
       * Creative Leadership
       * Customer experience design
@@ -164,11 +160,11 @@ jobs:
       * Multitasker extraordinaire
       * Strong organizational skills
       * Lover of the outdoors
-
-      #### TECHNICAL PROFICIENCIES
-
-      Proficient on both Mac and PC platforms 
-
+    icon: fa-briefcase
+    title: ''
+  - company: 'Technical Proficiencies '
+    description: |-
+      * Proficient on both Mac and PC platforms 
       * Adobe Creative Suite
       * Photoshop 
       * InDesign 
