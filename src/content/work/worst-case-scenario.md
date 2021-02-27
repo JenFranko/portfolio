@@ -14,10 +14,10 @@ description: >-
   survival smarts.
 
 
-  Conceptualized, art directed, designed and implemented branding and creative
-  marketing campaign working closely with Marketing Art Director to assure
-  alignment through in-building experience and representation in the
-  marketplace.
+  Conceptualized, art directed, designed, and implemented branding and creative
+  marketing campaign working closely with Marketing Art Director ([Barb
+  Chotiner](http://bzdesignstuff.com/)) to assure alignment through in-building
+  experience and representation in the marketplace.
 link: /assets/uploads/WCS-300x300-1-1024x1024.jpg
 images:
   - description: Creative Package
@@ -64,3 +64,4 @@ images:
     layout: full
 tags: work
 ---
+
