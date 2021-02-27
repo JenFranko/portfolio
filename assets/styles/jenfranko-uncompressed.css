@@ -5172,10 +5172,7 @@ img {
   position: relative; }
 
 .jf-image-full {
-  display: block;
-  max-width: none;
-  object-fit: cover;
-  width: auto; }
+  display: block; }
 
 .jf-work-description {
   font-size: 1rem;
