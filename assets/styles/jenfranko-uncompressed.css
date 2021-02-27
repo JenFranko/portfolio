@@ -5220,13 +5220,20 @@ img {
   top: 0;
   width: 100%; }
 
-.jf-work-next {
+.jf-link-text {
+  margin: 0 auto 0 0; }
+
+.jf-work-next .jf-work-nav-link {
+  padding-left: 0;
+  padding-right: 7rem; }
+
+.jf-work-next .jf-link-text {
+  margin-left: auto;
+  margin-right: 0;
   text-align: right; }
-  .jf-work-next .jf-work-nav-link {
-    padding-left: 0;
-    padding-right: 7rem; }
-  .jf-work-next .jf-work-nav-img {
-    margin-left: auto; }
+
+.jf-work-next .jf-work-nav-img {
+  margin-left: auto; }
 
 @media screen and (min-width: 40rem) {
   .jf-work-nav {
