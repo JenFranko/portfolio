@@ -3,7 +3,7 @@ title: Resume
 file: /assets/uploads/Jen-Dudek-Resume.pdf
 tags: resume
 jobs:
-  - company: The Franklin Institute
+  - company: 'Lead Experiential Graphic Designer '
     date: 2019 - Present
     description: >-
       Promoted to lead experiential branding and graphic design for the museum,
@@ -37,7 +37,7 @@ jobs:
       * Oversee graphic production, prototyping, and installation of exhibits in
       galleries.
     icon: fa-university
-    title: Lead Experiential Graphic Designer
+    title: The Franklin Institute
   - company: The Franklin Institute
     date: 2016-2019
     description: >-
