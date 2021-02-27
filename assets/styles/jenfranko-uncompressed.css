@@ -5036,12 +5036,12 @@ img {
   .jf-greeting-content h1 {
     font-size: 1.5rem;
     line-height: 2rem;
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
   .jf-greeting-content .jf-name {
     display: block;
     font-size: 2.25rem;
-    line-height: 2.5rem;
-    text-transform: uppercase; }
+    line-height: 2.5rem; }
   .jf-greeting-content .jf-social-list {
     text-align: center; }
   .jf-greeting-content .jf-social-link {
