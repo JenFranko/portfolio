@@ -86,6 +86,27 @@ jobs:
       informed by insights and research.
     icon: fa-users
     title: Art Director
+  - company: Phillips Feed & Pet Supplies
+    date: 2011 - 2013
+    description: >-
+      Led graphic design and production of creative marketing materials; managed
+      the design team, project workflow, and content management systems. 
+
+
+      * Managed all projects through the design, production, and implementation
+      process, adhering to advertising specifications and design patterns to
+      meet deadlines for seasonal promotional schedules. 
+
+      * Designed and developed digital and print versions of monthly product
+      catalogs and promotional sales materials.
+
+      * Supported regional sales team and business stakeholders in developing
+      promotional material for retailers.
+
+      * Prepared design files and documentation for various vendors, printers,
+      and web producers.
+    icon: fa-truck
+    title: Lead Graphic Designer and Marketing
   - company: Freelance Work
     date: 2007 - Present
     description: >-
@@ -143,16 +164,6 @@ jobs:
       * The Creative Group - Washington, DC and Philadelphia, PA
     icon: fa-lightbulb
     title: Graphic and Multimedia Designer/Art Director
-  - company: Phillips Feed & Pet Supplies
-    date: 2011 - 2013
-    description: >-
-      Managed the design team and workflow while conceptualizing, designing, and
-      producing several design and marketing projects. Prepared design files for
-      various vendors, printers, and web producers. Worked closely with internal
-      departments on monthly national catalogues and promotional sales
-      materials.
-    icon: fa-truck
-    title: Lead Graphic Designer and Marketing
   - company: 360JMG
     date: '2008'
     description: >-
