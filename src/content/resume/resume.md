@@ -162,7 +162,7 @@ jobs:
       * Lover of the outdoors
     icon: fa-briefcase
     title: ''
-  - company: 'Technical Proficiencies '
+  - company: Technical Proficiencies
     description: |-
       * Proficient on both Mac and PC platforms 
       * Adobe Creative Suite
