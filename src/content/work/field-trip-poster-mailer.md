@@ -12,6 +12,12 @@ description: >-
   visual brand that appealed to teachers to book a field trip, but would also
   appeal to students once hung in the classroom. Of course, all of this also had
   to stay true to the Franklin Institute’s visual identity and mission.
+
+
+  Creative direction and design for the entire publication • Worked with
+  internal clients to receive copy and manage the approval process • Layout
+  design for publication • Received printer quotes and prepare file for
+  production
 link: /assets/uploads/300x300.jpg
 images:
   - image: /assets/uploads/FT-Left-1.jpg
