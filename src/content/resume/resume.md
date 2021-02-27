@@ -6,16 +6,38 @@ jobs:
   - company: The Franklin Institute
     date: 2019 - Present
     description: >-
-      Member of the core team responsible for realizing the 2024 Master Plan
-      with a key role in the branding and design of the experiences. Worked
-      across departments to manage the design of the graphic look and experience
-      for any in building exhibitions or signage. Made changes and upgrades to
-      the building wayfinding experience and usage of digital signage as well as
-      any needs for updates to the exhibition environmental graphics. All while
-      mentoring a team of designers and directing multiple design agencies and
-      resources.
+      Promoted to lead experiential branding and graphic design for the museum,
+      including long-term and traveling exhibitions, in-building marketing,
+      wayfinding experience, exhibition environmental graphics, and digital
+      signage. Key cross-functional team member responsible for planning the
+      museum experience’s strategic and process improvements from concept to
+      implementation and lead design thinking on visual design and branding,
+      including typography, imagery, and color.
+
+
+      * Shape and craft the museum’s experiential design to connect the
+      experience with nearly 1M annual visitors.
+
+      * Mentor, coach, and guide in-house design team and external agencies in
+      design and production of hundreds of museum-wide print, signage, and
+      exhibition graphics annually.
+
+      * Partnered with multi-channel teams and supported marketing initiatives
+      during Covid; created video, digital content and campaigns and organized
+      photoshoots, driving digital engagement to keep the museum top-of-mind.
+
+      * Collaborate with exhibit team and internal stakeholders on developing a
+      consistent graphic look and experience of in-building exhibitions and
+      signage.
+
+      * Update the graphics and refresh the content for the building wayfinding
+      experience, digital signage, exhibition environmental graphics, and live
+      programming shows.
+
+      * Oversee graphic production, prototyping, and installation of exhibits in
+      galleries.
     icon: fa-university
-    title: Senior Experiential Graphic Designer
+    title: Lead Experiential Graphic Designer
   - company: The Franklin Institute
     date: 2016-2019
     description: >-
