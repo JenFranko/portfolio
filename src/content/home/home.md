@@ -49,7 +49,7 @@ attributes:
     percent: 45
   - name: Cat Mom
     percent: 65
-  - name: Graphic Designer
+  - name: Designer
     percent: 100
 tags: home
 ---
