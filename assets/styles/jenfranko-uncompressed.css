@@ -4940,7 +4940,7 @@ img {
   margin-left: -2rem;
   margin-top: 1.5rem;
   width: 55%; }
-  .jf-attribute:nth-child(3n) {
+  .jf-attribute:nth-child(2n) {
     width: 69%; }
   .jf-attribute:last-child {
     width: 100%; }
