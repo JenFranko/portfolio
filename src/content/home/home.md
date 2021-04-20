@@ -46,7 +46,7 @@ about:
     title: About Me
 attributes:
   - name: Mountain Biker
-    percent: 45
+    percent: 40
   - name: Cat Mom
     percent: 65
   - name: Designer
