@@ -4,7 +4,7 @@ file: /assets/uploads/Jen-Dudek-Resume.pdf
 tags: resume
 jobs:
   - company: 'Lead Experiential Graphic Designer '
-    date: 2019 – Present
+    date: 2019 – 2021
     description: >-
       Promoted to lead experiential branding and graphic design for the museum,
       including long-term and traveling exhibitions, in-building marketing,
