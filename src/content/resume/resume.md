@@ -107,7 +107,7 @@ jobs:
       and web producers.
     icon: fa-truck
     title: Phillips Feed & Pet Supplies
-  - company: 'Graphic, Multi-Media Designer & Art Director'
+  - company: Visual Designer & Art Director
     date: 2007 – Present
     description: "Create multi-media design projects and campaigns across formats and channels for clients in a broad spectrum of industries, including technology, financial services, higher education, \nnon-profit, retail, medical, and health and fitness. \rProjects include annual reports, website design & wireframes, digital and social media communications, print, email design, branding, and apparel graphics. \n\n* Bright Path Brewing, Jim Thorpe, PA\n* Lone Eagle Brewing, Flemington, NJ\n* Penn Medicine, University of Pennsylvania Health System, Philadelphia, PA\n* Sungard Availability Services, Wayne, PA\n* Creative Circle\n* Synergy Medical Education, Conshohocken, PA\n* Kelpius Cycling Team, Philadelphia, PA\n* Event Strategy Group, Plymouth Meeting, PA\n* M2, Philadelphia, PA\n* 360JMG, Washington, DC\n* IWS, Alexandria, VA\n* In The Crosshairs, Washington, DC\n* Just Riding Along Bicycle Shop (JRABS), Laytonsville, MD\n* Case Design/Remodeling, Inc., Bethesda, MD\n* Christian Service Charities, Annandale, VA\n* Eastern Research Group, Arlington, VA\n* Home Front Communications, Washington, DC\n* Jon Wye, Washington, DC\n* KindHuman Sports, Advance, NC\n* OmniStudio, Inc., Washington, DC\n* Lorél Marketing Group, Valley Forge, PA\n* MABRACross.org, Washington, DC\n* MedErgy HealthGroup, Inc., Yardley, PA\n* Rio Brands, Philadelphia, PA\n* University for Peace, Washington, DC\n* United States Postal Service, Washington, DC\n* The Creative Group - Washington, DC and Philadelphia, PA"
     icon: fa-lightbulb
