@@ -28,13 +28,6 @@ about:
       the solution for every client and create remarkable customer experiences.
 
 
-      I am currently working as the Lead Experiential Graphic Designer at The
-      Franklin Institute. In this role, I direct the experiential branding and
-      graphic design for the museum, including long-term and traveling
-      exhibitions, in-building marketing, wayfinding experience, exhibition
-      environmental graphics, and digital signage. 
-
-
       During my work experience, I’ve built my expertise art directing print and
       digital campaigns across experiential and environmental design, branding,
       and brand management while leading and mentoring design teams working in
