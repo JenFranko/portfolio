@@ -2,7 +2,7 @@
 name: Home Page
 greeting: >-
   # Hello, my name is <span class="jf-name">Jennifer Dudek<span
-  class="jf-accessible-text">.</span></span> I'm an Art Director and Visual
+  class="jf-accessible-text">.</span></span> I'm an Art Director and
   Designer<span class="jf-accessible-text">.</span>
 greeting_bg:
   - image: /assets/uploads/kelpius.jpg
