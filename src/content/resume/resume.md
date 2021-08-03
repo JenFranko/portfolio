@@ -137,7 +137,7 @@ jobs:
   - company: Core Competencies
     description: |-
       * Art and creative direction
-      * Creative Leadership
+      * Creative leadership
       * Customer experience design
       * User-centered design
       * Experiential design
@@ -155,7 +155,7 @@ jobs:
       * Print production
       * Team management
       * Project management
-      * Process Improvement
+      * Process improvement
       * Detail-oriented
       * Multitasker extraordinaire
       * Strong organizational skills
@@ -171,6 +171,7 @@ jobs:
       * Illustrator 
       * XD 
       * Acrobat 
+      * Asana
       * Microsoft 360 
       * Teams 
       * Excel 
@@ -179,6 +180,7 @@ jobs:
       * SharePoint 
       * Slack 
       * InVision 
+      * Figma 
       * WordPress
     icon: fa-briefcase
     title: ''
