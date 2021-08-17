@@ -5,7 +5,23 @@ tags: resume
 jobs:
   - company: Senior Graphic Designer
     date: 2021 – Present
-    description: "One of Main Line Health’s key brand ambassadors, leading the design of top-line projects and developing strategically designed materials that connect the brand with patients, families, physicians, associates, and the community. \r\n* Collaborates closely with Marketing, Communications, Strategy and Business Development teams to offer \nbrand direction for photo and video shoot production/editing and much more.\r\n* Leading the charge on a new project management system implementation, revamp of the creative project \nrequest submission and standard operation procedures for the Corporate Design Group.\r\n* Responsible for generating concepts from inception to execution, working closely with the clients \nand business needs.\r"
+    description: >-
+      One of Main Line Health’s key brand ambassadors, leading the design of
+      top-line projects and developing strategically designed materials that
+      connect the brand with patients, families, physicians, associates, and the
+      community. 
+
+
+      * Collaborates closely with Marketing, Communications, Strategy and
+      Business Development teams to offer brand direction for photo and video
+      shoot production/editing and much more.
+
+      * Leading the charge on a new project management system implementation,
+      revamp of the creative project request submission, and standard operating
+      procedures for the Corporate Design Group.
+
+      * Responsible for generating concepts from inception to execution, working
+      closely with the clients and business needs.
     icon: fa-plus
     title: Main Line Health
   - company: 'Lead Experiential Graphic Designer '
