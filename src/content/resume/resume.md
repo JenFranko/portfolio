@@ -3,8 +3,17 @@ title: Resume
 file: /assets/uploads/Jen-Dudek-Resume.pdf
 tags: resume
 jobs:
+  - company: 'Manager, Corporate Design Group'
+    date: 2022 – Present
+    description: >-
+      Leads and mentors the design team overseeing the production of creative
+      marketing materials; manages everything from the design teams day to day,
+      project workflow and content management systems to the larger strategic
+      design initiatives.
+    icon: fa-plus
+    title: Main Line Health
   - company: Senior Graphic Designer
-    date: 2021 – Present
+    date: 2021 – 2022
     description: >-
       One of Main Line Health’s key brand ambassadors, leading the design of
       top-line projects and developing strategically designed materials that
