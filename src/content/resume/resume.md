@@ -200,6 +200,8 @@ jobs:
       * InDesign 
       * Illustrator 
       * XD 
+
+        Express
       * Acrobat 
       * Asana
       * Microsoft 360 
