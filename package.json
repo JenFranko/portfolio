@@ -27,7 +27,7 @@
     "git-rev-sync": "3.0.1",
     "markdown-it": "12.0.4",
     "moment": "2.29.1",
-    "node-sass": "5.0.0",
+    "node-sass": "8.0.0",
     "nunjucks": "3.2.2",
     "nunjucks-markdown": "2.0.1",
     "onchange": "7.1.0",
