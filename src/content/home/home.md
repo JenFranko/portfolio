@@ -1,7 +1,7 @@
 ---
 name: Home Page
 greeting: >-
-  # Hello, my name is <span class="jf-name">Jennifer Dudek<span
+  # Hello, my name is <span class="jf-name">Jennifer Franko<span
   class="jf-accessible-text">.</span></span> I'm an Art Director and
   Designer<span class="jf-accessible-text">.</span>
 greeting_bg:
