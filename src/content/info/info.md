@@ -8,7 +8,7 @@ social:
     image: fa-instagram
     name: Instagram
     text: Follow me on Instagram
-    url: 'http://www.instagram.com/jeneffindudek'
+    url: 'http://www.instagram.com/jenefferrs'
   - brand: true
     image: fa-linkedin
     name: Linkedin
