@@ -1,6 +1,6 @@
 ---
 renderData:
-  title: "{{ work.data.title }} by Jen Dudek, Graphic Designer"
+  title: "{{ work.data.title }} by Jen Franko, Graphic Designer"
   description: "{{ work.data.description }}"
   image: "{{ work.data.images[0].image }}"
 pagination:
@@ -32,7 +32,7 @@ permalink: "/work/{{ work.data.title | slug }}/"
     {% set nextPost = collections.work | sortByDate | reverse  | getNextCollectionItem(work) %}
     {{ workContent(content, previousPost, nextPost) }}
 
-    {% set footerText = "Jen Dudek Design" %}
+    {% set footerText = "Jen Franko Design" %}
     {% set social = collections.info[0].data.social %}
     {% if collections.info[0].data.footer_text %}
         {% set footerText = collections.info[0].data.footer_text %}
